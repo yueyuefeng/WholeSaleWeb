@@ -1,0 +1,302 @@
+msgid ""
+msgstr "Project-Id-Version: Shadowalker 1.0.0\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "A fleet. A first ride."
+msgstr "Une flotte. Un premier trajet."
+
+msgid "A little electric. A lot of possibility."
+msgstr "Un peu d’électricité. Tant de possibilités."
+
+msgid "A little off track"
+msgstr "Un petit détour"
+
+msgid "A new perspective"
+msgstr "Une nouvelle perspective"
+
+msgid "A new way to move."
+msgstr "Une nouvelle façon de bouger."
+
+msgid "A project of your own."
+msgstr "Un projet qui vous ressemble."
+
+msgid "A quieter way around."
+msgstr "Se déplacer en douceur."
+
+msgid "A world to explore."
+msgstr "Un monde à explorer."
+
+msgid "All products"
+msgstr "Tous les produits"
+
+msgid "An illustrated electric bike beside a lake and rolling hills"
+msgstr "Illustration d’un vélo électrique au bord d’un lac et de collines"
+
+msgid "Bag"
+msgstr "Panier"
+
+msgid "Browse the shop"
+msgstr "Voir la boutique"
+
+msgid "Change the journey."
+msgstr "Changez le voyage."
+
+msgid "Check email delivery"
+msgstr "Vérifier l’envoi de l’e-mail"
+
+msgid "Check your name, email, country, quantity, message and privacy consent."
+msgstr "Vérifiez votre nom, e-mail, pays, quantité, message et consentement."
+
+msgid "Choose your own pace"
+msgstr "Choisissez votre rythme"
+
+msgid "Contact & wholesale"
+msgstr "Contact & vente en gros"
+
+msgid "Conversion kits"
+msgstr "Kits de conversion"
+
+msgid "Demo catalog — sample products, illustrations and prices. Not a live store."
+msgstr "Catalogue de démonstration : produits, illustrations et prix fictifs. Boutique non ouverte."
+
+msgid "Destination country"
+msgstr "Pays de destination"
+
+msgid "Disable online purchase for this product and its variations."
+msgstr "Désactiver l’achat en ligne de ce produit et de ses variantes."
+
+msgid "Electric bikes"
+msgstr "Vélos électriques"
+
+msgid "Electric boats"
+msgstr "Bateaux électriques"
+
+msgid "Email address"
+msgstr "Adresse e-mail"
+
+msgid "Explore"
+msgstr "Explorer"
+
+msgid "Explore conversion kits"
+msgstr "Découvrir les kits"
+
+msgid "Explore electric bikes"
+msgstr "Découvrir les vélos électriques"
+
+msgid "Explore products"
+msgstr "Nos produits"
+
+msgid "Explore the collection"
+msgstr "Découvrir la collection"
+
+msgid "Explore your possibilities"
+msgstr "Explorez les possibilités"
+
+msgid "FOUR WAYS TO GO FURTHER"
+msgstr "QUATRE FAÇONS D’ALLER PLUS LOIN"
+
+msgid "Field notes"
+msgstr "Carnet de route"
+
+msgid "Find your next ride"
+msgstr "Trouvez votre prochain véhicule"
+
+msgid "Find your next way to move"
+msgstr "Découvrez votre prochaine façon de bouger"
+
+msgid "Find your ride"
+msgstr "Trouvez votre véhicule"
+
+msgid "Footer navigation"
+msgstr "Navigation de bas de page"
+
+msgid "From the morning commute to the open water. Discover a new way to move, explore, and make it your own."
+msgstr "Du trajet quotidien aux grands espaces aquatiques. Découvrez une nouvelle façon de bouger et d’explorer, à votre rythme."
+
+msgid "Give a familiar ride a fresh start. Explore motors, batteries, controllers, and conversion kits. We can help you check compatibility before you choose."
+msgstr "Offrez un nouvel élan à votre vélo. Découvrez moteurs, batteries, contrôleurs et kits. Nous vous aidons à vérifier la compatibilité avant de choisir."
+
+msgid "Go your own way."
+msgstr "Suivez votre propre voie."
+
+msgid "Golf carts"
+msgstr "Voiturettes de golf"
+
+msgid "Here to help"
+msgstr "À votre service"
+
+msgid "I agree to the processing of my inquiry as described in the"
+msgstr "J’accepte le traitement de ma demande conformément à la"
+
+msgid "Illustrated electric bicycle conversion components"
+msgstr "Illustration de composants de conversion électrique pour vélo"
+
+msgid "Inquiries"
+msgstr "Demandes"
+
+msgid "Inquiry"
+msgstr "Demande"
+
+msgid "Keep the bike."
+msgstr "Gardez votre vélo."
+
+msgid "LET’S FIND YOUR WAY"
+msgstr "TROUVONS VOTRE CHEMIN"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "Leave only a ripple."
+msgstr "Ne laisser qu’un sillage."
+
+msgid "Less ordinary."
+msgstr "Moins ordinaire."
+
+msgid "Let’s discuss your configuration, destination and delivery requirements."
+msgstr "Parlons de votre configuration, de votre destination et de vos besoins de livraison."
+
+msgid "Let’s find your way back."
+msgstr "Retrouvons votre chemin."
+
+msgid "Let’s talk"
+msgstr "Parlons-en"
+
+msgid "MEET YOUR NEXT ADVENTURE"
+msgstr "VOTRE PROCHAINE AVENTURE"
+
+msgid "MOVE DIFFERENTLY"
+msgstr "BOUGEZ AUTREMENT"
+
+msgid "Main navigation"
+msgstr "Navigation principale"
+
+msgid "Make every day a detour."
+msgstr "Explorer au quotidien."
+
+msgid "Make it electric"
+msgstr "Passez à l’électrique"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "More electric."
+msgstr "Plus électrique."
+
+msgid "My account"
+msgstr "Mon compte"
+
+msgid "Nothing here yet. Try another search."
+msgstr "Aucun résultat. Essayez une autre recherche."
+
+msgid "Notification"
+msgstr "Notification"
+
+msgid "On land. On water."
+msgstr "Sur terre. Sur l’eau."
+
+msgid "On your terms."
+msgstr "À votre façon."
+
+msgid "One per line: label | value. Confirm all specifications before publishing."
+msgstr "Une par ligne : nom | valeur. Vérifier avant publication."
+
+msgid "Our collection is getting ready. Contact us to find your next ride."
+msgstr "Notre collection se prépare. Contactez-nous pour trouver votre prochain véhicule."
+
+msgid "Our story"
+msgstr "Notre histoire"
+
+msgid "Please wait before sending another inquiry."
+msgstr "Veuillez patienter avant d’envoyer une autre demande."
+
+msgid "Price on request"
+msgstr "Prix sur demande"
+
+msgid "Privacy"
+msgstr "Confidentialité"
+
+msgid "Privacy policy"
+msgstr "Politique de confidentialité"
+
+msgid "Product"
+msgstr "Produit"
+
+msgid "Quantity"
+msgstr "Quantité"
+
+msgid "Quote only"
+msgstr "Sur devis uniquement"
+
+msgid "Ready for a different route."
+msgstr "Prêt pour un autre chemin."
+
+msgid "Request a quote"
+msgstr "Demander un devis"
+
+msgid "SAME BIKE. NEW ENERGY."
+msgstr "MÊME VÉLO. NOUVELLE ÉNERGIE."
+
+msgid "Search results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+msgid "Select country"
+msgstr "Choisir un pays"
+
+msgid "Send inquiry"
+msgstr "Envoyer la demande"
+
+msgid "Sent"
+msgstr "Envoyée"
+
+msgid "Shipping & returns"
+msgstr "Livraison & retours"
+
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+msgid "Specifications"
+msgstr "Caractéristiques"
+
+msgid "Starts with a little spark."
+msgstr "Tout commence par une étincelle."
+
+msgid "Talk to us"
+msgstr "Contact"
+
+msgid "Technical specifications"
+msgstr "Caractéristiques techniques"
+
+msgid "Tell us about your project"
+msgstr "Parlez-nous de votre projet"
+
+msgid "Tell us what you have in mind. We’ll help you explore the options."
+msgstr "Parlez-nous de vos envies. Nous vous aiderons à explorer les possibilités."
+
+msgid "Terms"
+msgstr "Conditions"
+
+msgid "Thank you. Your inquiry has been saved. Our team will review it."
+msgstr "Merci. Votre demande a été enregistrée. Notre équipe l’examinera."
+
+msgid "The inquiry form is currently unavailable."
+msgstr "Le formulaire est actuellement indisponible."
+
+msgid "This product requires a quote. Please contact us."
+msgstr "Ce produit nécessite un devis. Contactez-nous."
+
+msgid "View details"
+msgstr "Voir les détails"
+
+msgid "We could not save your inquiry. Please try again."
+msgstr "Impossible d’enregistrer votre demande. Veuillez réessayer."
+
+msgid "Where will you go?"
+msgstr "Où irez-vous ?"
+
+msgid "Your bike. A new possibility."
+msgstr "Votre vélo. Un nouvel élan."
+
+msgid "Your name"
+msgstr "Votre nom"
+
+msgid "Your session expired. Reload the form and try again."
+msgstr "Votre session a expiré. Rechargez le formulaire et réessayez."

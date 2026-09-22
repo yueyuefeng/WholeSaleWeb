@@ -1,0 +1,2 @@
+<?php defined('ABSPATH') || exit; get_header(); ?>
+<main id="main" class="wrap content-page"><p class="eyebrow">404 / <?php esc_html_e('A little off track', 'shadowalker'); ?></p><h1><?php esc_html_e('Let’s find your way back.', 'shadowalker'); ?></h1><a class="button" href="<?php echo esc_url(sw_shop_url()); ?>"><?php esc_html_e('Explore products', 'shadowalker'); ?> ↗</a></main><?php get_footer(); ?>

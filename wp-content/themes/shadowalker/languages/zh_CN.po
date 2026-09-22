@@ -1,0 +1,302 @@
+msgid ""
+msgstr "Project-Id-Version: Shadowalker 1.0.0\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "A fleet. A first ride."
+msgstr "一支车队，一次初体验。"
+
+msgid "A little electric. A lot of possibility."
+msgstr "一点电力，无限可能。"
+
+msgid "A little off track"
+msgstr "似乎偏离了路线"
+
+msgid "A new perspective"
+msgstr "换个角度看世界"
+
+msgid "A new way to move."
+msgstr "一种全新的出行方式。"
+
+msgid "A project of your own."
+msgstr "或一个属于你的改装计划。"
+
+msgid "A quieter way around."
+msgstr "安静出行，轻松抵达。"
+
+msgid "A world to explore."
+msgstr "一个值得探索的世界。"
+
+msgid "All products"
+msgstr "全部产品"
+
+msgid "An illustrated electric bike beside a lake and rolling hills"
+msgstr "湖畔与群山前的电动自行车插画"
+
+msgid "Bag"
+msgstr "购物袋"
+
+msgid "Browse the shop"
+msgstr "浏览商城"
+
+msgid "Change the journey."
+msgstr "改变每段旅程。"
+
+msgid "Check email delivery"
+msgstr "请检查邮件投递"
+
+msgid "Check your name, email, country, quantity, message and privacy consent."
+msgstr "请检查姓名、邮箱、国家、数量、留言和隐私同意选项。"
+
+msgid "Choose your own pace"
+msgstr "找到自己的节奏"
+
+msgid "Contact & wholesale"
+msgstr "联系与批发合作"
+
+msgid "Conversion kits"
+msgstr "电动改装套件"
+
+msgid "Demo catalog — sample products, illustrations and prices. Not a live store."
+msgstr "演示目录：商品、插画与价格均为示例，尚未正式营业。"
+
+msgid "Destination country"
+msgstr "目的地国家"
+
+msgid "Disable online purchase for this product and its variations."
+msgstr "关闭此商品及其变体的在线购买。"
+
+msgid "Electric bikes"
+msgstr "电动自行车"
+
+msgid "Electric boats"
+msgstr "电动船"
+
+msgid "Email address"
+msgstr "电子邮箱"
+
+msgid "Explore"
+msgstr "探索"
+
+msgid "Explore conversion kits"
+msgstr "探索改装套件"
+
+msgid "Explore electric bikes"
+msgstr "探索电动自行车"
+
+msgid "Explore products"
+msgstr "探索产品"
+
+msgid "Explore the collection"
+msgstr "探索产品系列"
+
+msgid "Explore your possibilities"
+msgstr "探索更多可能"
+
+msgid "FOUR WAYS TO GO FURTHER"
+msgstr "四种方式，探索更远"
+
+msgid "Field notes"
+msgstr "出行手记"
+
+msgid "Find your next ride"
+msgstr "寻找你的下一辆座驾"
+
+msgid "Find your next way to move"
+msgstr "探索你的下一种出行方式"
+
+msgid "Find your ride"
+msgstr "寻找你的座驾"
+
+msgid "Footer navigation"
+msgstr "页脚导航"
+
+msgid "From the morning commute to the open water. Discover a new way to move, explore, and make it your own."
+msgstr "从清晨通勤，到开阔水面。探索新的出行方式，让每段旅程都属于自己。"
+
+msgid "Give a familiar ride a fresh start. Explore motors, batteries, controllers, and conversion kits. We can help you check compatibility before you choose."
+msgstr "为熟悉的单车注入新动力。探索电机、电池、控制器与改装套件，购买前可联系我们确认兼容性。"
+
+msgid "Go your own way."
+msgstr "走自己的路。"
+
+msgid "Golf carts"
+msgstr "高尔夫车"
+
+msgid "Here to help"
+msgstr "服务支持"
+
+msgid "I agree to the processing of my inquiry as described in the"
+msgstr "我同意按照以下政策处理我的询价信息："
+
+msgid "Illustrated electric bicycle conversion components"
+msgstr "自行车电动改装配件插画"
+
+msgid "Inquiries"
+msgstr "客户询价"
+
+msgid "Inquiry"
+msgstr "询价"
+
+msgid "Keep the bike."
+msgstr "留下你的单车。"
+
+msgid "LET’S FIND YOUR WAY"
+msgstr "找到你的出行方式"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Leave only a ripple."
+msgstr "只留下一道涟漪。"
+
+msgid "Less ordinary."
+msgstr "不止于日常。"
+
+msgid "Let’s discuss your configuration, destination and delivery requirements."
+msgstr "告诉我们你需要的配置、目的地和交付要求。"
+
+msgid "Let’s find your way back."
+msgstr "一起回到正确的方向。"
+
+msgid "Let’s talk"
+msgstr "聊聊你的计划"
+
+msgid "MEET YOUR NEXT ADVENTURE"
+msgstr "开启下一段探索"
+
+msgid "MOVE DIFFERENTLY"
+msgstr "换一种方式出发"
+
+msgid "Main navigation"
+msgstr "主导航"
+
+msgid "Make every day a detour."
+msgstr "让日常多一段探索。"
+
+msgid "Make it electric"
+msgstr "让出行带电"
+
+msgid "Menu"
+msgstr "菜单"
+
+msgid "More electric."
+msgstr "为探索充电。"
+
+msgid "My account"
+msgstr "我的账户"
+
+msgid "Nothing here yet. Try another search."
+msgstr "暂无结果，请尝试其他关键词。"
+
+msgid "Notification"
+msgstr "通知状态"
+
+msgid "On land. On water."
+msgstr "陆地之上，水面之间。"
+
+msgid "On your terms."
+msgstr "由你定义。"
+
+msgid "One per line: label | value. Confirm all specifications before publishing."
+msgstr "每行一项：参数名 | 参数值。发布前请核实所有参数。"
+
+msgid "Our collection is getting ready. Contact us to find your next ride."
+msgstr "产品系列正在准备中，欢迎联系我们了解更多。"
+
+msgid "Our story"
+msgstr "品牌故事"
+
+msgid "Please wait before sending another inquiry."
+msgstr "请稍后再提交新的询价。"
+
+msgid "Price on request"
+msgstr "询价获取价格"
+
+msgid "Privacy"
+msgstr "隐私政策"
+
+msgid "Privacy policy"
+msgstr "隐私政策"
+
+msgid "Product"
+msgstr "产品"
+
+msgid "Quantity"
+msgstr "数量"
+
+msgid "Quote only"
+msgstr "仅接受询价"
+
+msgid "Ready for a different route."
+msgstr "准备好，走一条新的路。"
+
+msgid "Request a quote"
+msgstr "获取报价"
+
+msgid "SAME BIKE. NEW ENERGY."
+msgstr "熟悉的车，全新的动力。"
+
+msgid "Search results for: %s"
+msgstr "搜索结果：%s"
+
+msgid "Select country"
+msgstr "选择国家"
+
+msgid "Send inquiry"
+msgstr "提交询价"
+
+msgid "Sent"
+msgstr "已发送"
+
+msgid "Shipping & returns"
+msgstr "配送与退换货"
+
+msgid "Skip to content"
+msgstr "跳转到正文"
+
+msgid "Specifications"
+msgstr "规格参数"
+
+msgid "Starts with a little spark."
+msgstr "从一点电力开始。"
+
+msgid "Talk to us"
+msgstr "联系我们"
+
+msgid "Technical specifications"
+msgstr "技术规格"
+
+msgid "Tell us about your project"
+msgstr "介绍你的采购或改装需求"
+
+msgid "Tell us what you have in mind. We’ll help you explore the options."
+msgstr "告诉我们你的想法，一起探索适合你的选择。"
+
+msgid "Terms"
+msgstr "服务条款"
+
+msgid "Thank you. Your inquiry has been saved. Our team will review it."
+msgstr "感谢咨询，询价已保存，我们的团队将查看你的需求。"
+
+msgid "The inquiry form is currently unavailable."
+msgstr "询价表单暂时不可用。"
+
+msgid "This product requires a quote. Please contact us."
+msgstr "此产品需要单独报价，请联系我们。"
+
+msgid "View details"
+msgstr "查看详情"
+
+msgid "We could not save your inquiry. Please try again."
+msgstr "询价保存失败，请重试。"
+
+msgid "Where will you go?"
+msgstr "下一站，你想去哪？"
+
+msgid "Your bike. A new possibility."
+msgstr "熟悉的单车，全新的可能。"
+
+msgid "Your name"
+msgstr "你的姓名"
+
+msgid "Your session expired. Reload the form and try again."
+msgstr "页面会话已过期，请刷新表单后重试。"

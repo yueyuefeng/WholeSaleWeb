@@ -43,6 +43,9 @@ msgstr "Panier"
 msgid "Born alone. Our shadow, an eternal companion. Walk your own path. Make this life count."
 msgstr "Nés seuls. Notre ombre, éternelle compagne. Suivez votre propre voie. Vivez pleinement."
 
+msgid "Born into solitude."
+msgstr "Nous naissons seuls."
+
 msgid "Browse the shop"
 msgstr "Voir la boutique"
 
@@ -108,6 +111,9 @@ msgstr "Explorez les possibilités"
 
 msgid "FOUR WAYS TO GO FURTHER"
 msgstr "QUATRE FAÇONS D’ALLER PLUS LOIN"
+
+msgid "Face every trial. Forge ahead. Make this life count."
+msgstr "Affronter les épreuves. Avancer avec courage. Vivre pleinement."
 
 msgid "Field notes"
 msgstr "Carnet de route"
@@ -216,6 +222,9 @@ msgstr "À votre façon."
 
 msgid "One per line: label | value. Confirm all specifications before publishing."
 msgstr "Une par ligne : nom | valeur. Vérifier avant publication."
+
+msgid "Only our shadow stays forever."
+msgstr "Seule notre ombre nous accompagne à jamais."
 
 msgid "Our collection is getting ready. Contact us to find your next ride."
 msgstr "Notre collection se prépare. Contactez-nous pour trouver votre prochain véhicule."

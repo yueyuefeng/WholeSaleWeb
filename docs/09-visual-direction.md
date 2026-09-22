@@ -4,7 +4,21 @@
 
 > 人生来孤独，唯有影为永恒伴侣，行者心态不虚此生。
 
-将这句话完整置于首页唯一 H1，保留原句、标点和中文，使用 `lang="zh-CN"` 标记。按语义拆为三行，以冷青色强调“影”。下方提供英/中/德/法/西的释义。中文原句属于品牌宣言，切换网站语言时仍保留；解释文本随语言切换。
+首页唯一 H1 随当前站点语言切换；中文保留原句和标点。按三个语义单元排版，以冷青色强调“影为永恒伴侣”这一句。移除固定中文语言标记，继承页面的 `lang`；不再重复显示中文标题与外语副标题。长句会根据屏幕宽度自然换行。
+
+### 翻译原则与定稿（1.1.1）
+
+品牌方解释：“行者”是类似孙行者所象征的哲学精神——不惧艰险、勇往直前、不虚此生。因此不译为 walker、traveller、行人或旅行者，也不在面向顾客的口号中直接加入人物名字或宗教身份。外语采用语义转写，保留“孤独—影相伴—勇敢而充实地活”的递进。
+
+| 语言 | 首屏价值主张 |
+|---|---|
+| 简体中文 | 人生来孤独，唯有影为永恒伴侣，行者心态不虚此生。 |
+| English | Born into solitude. Only our shadow stays forever. Face every trial. Forge ahead. Make this life count. |
+| Deutsch | In die Einsamkeit geboren. Nur unser Schatten bleibt für immer. Allen Widrigkeiten trotzen. Mutig vorangehen. Ein erfülltes Leben führen. |
+| Français | Nous naissons seuls. Seule notre ombre nous accompagne à jamais. Affronter les épreuves. Avancer avec courage. Vivre pleinement. |
+| Español | Nacemos en soledad. Solo nuestra sombra nos acompaña para siempre. Afrontar la adversidad. Avanzar con valentía. Vivir con plenitud. |
+
+三个句段均使用 WordPress gettext、`shadowalker` text domain 和已编译的 PO/MO。译文只存纯文本，模板统一转义，不让翻译内容控制 HTML。WPML 切换页面语言或修改 WordPress 站点语言时使用相应目录；未支持的语言回退英语。维护时同时审阅三个句段，避免单句机器直译破坏哲学含义。正式上线前可再请目标市场母语文案审校。
 
 ## 视觉系统
 

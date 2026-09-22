@@ -33,6 +33,7 @@ jobs:
       - name: Business rules and HTTP flows
         run: |
           docker compose --profile tools run --rm -T cli wp eval-file /workspace/tests/integration.php
+          docker compose --profile tools run --rm -T cli wp eval-file /workspace/tests/manifesto.php
           python3 tests/http-smoke.py http://localhost:8080
       - name: Record versions and container logs
         if: always()

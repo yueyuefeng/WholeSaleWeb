@@ -5,8 +5,12 @@
     <div class="hero-grid" aria-hidden="true"></div>
     <div class="hero-content wrap">
         <p class="eyebrow"><span class="status-dot"></span>SHADOWALKER / <?php esc_html_e('THE INDEPENDENT SPIRIT', 'shadowalker'); ?></p>
-        <h1 id="manifesto-heading" lang="zh-CN"><span>人生来孤独，</span><span>唯有<span class="shadow-word">影</span>为永恒伴侣，</span><span class="manifesto-last">行者心态不虚此生。</span></h1>
-        <p class="manifesto-translation"><?php esc_html_e('Born alone. Our shadow, an eternal companion. Walk your own path. Make this life count.', 'shadowalker'); ?></p>
+        <?php // Translators: Three parts of one brand manifesto. The final part expresses courage through hardship and a purposeful life, not literal walking or travel. ?>
+        <h1 id="manifesto-heading">
+            <span><?php esc_html_e('Born into solitude.', 'shadowalker'); ?></span>
+            <span class="shadow-word"><?php esc_html_e('Only our shadow stays forever.', 'shadowalker'); ?></span>
+            <span class="manifesto-last"><?php esc_html_e('Face every trial. Forge ahead. Make this life count.', 'shadowalker'); ?></span>
+        </h1>
         <div class="hero-actions"><a class="button" href="<?php echo esc_url(sw_shop_url()); ?>"><?php esc_html_e('Find your ride', 'shadowalker'); ?> <span aria-hidden="true">↗</span></a><a class="text-link" href="#collections"><?php esc_html_e('Explore the collection', 'shadowalker'); ?> <span aria-hidden="true">↓</span></a></div>
     </div>
     <div class="hero-bottom wrap"><span>01 / <?php esc_html_e('Go your own way.', 'shadowalker'); ?></span><span class="hero-coordinate">LAND · WATER · BEYOND</span><a href="#collections"><?php esc_html_e('Discover what moves you', 'shadowalker'); ?> ↓</a></div>

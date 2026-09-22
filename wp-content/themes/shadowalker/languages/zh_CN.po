@@ -43,6 +43,9 @@ msgstr "购物袋"
 msgid "Born alone. Our shadow, an eternal companion. Walk your own path. Make this life count."
 msgstr "人生来孤独，唯有影为永恒伴侣，行者心态不虚此生。"
 
+msgid "Born into solitude."
+msgstr "人生来孤独，"
+
 msgid "Browse the shop"
 msgstr "浏览商城"
 
@@ -108,6 +111,9 @@ msgstr "探索更多可能"
 
 msgid "FOUR WAYS TO GO FURTHER"
 msgstr "四种方式，探索更远"
+
+msgid "Face every trial. Forge ahead. Make this life count."
+msgstr "行者心态不虚此生。"
 
 msgid "Field notes"
 msgstr "出行手记"
@@ -216,6 +222,9 @@ msgstr "由你定义。"
 
 msgid "One per line: label | value. Confirm all specifications before publishing."
 msgstr "每行一项：参数名 | 参数值。发布前请核实所有参数。"
+
+msgid "Only our shadow stays forever."
+msgstr "唯有影为永恒伴侣，"
 
 msgid "Our collection is getting ready. Contact us to find your next ride."
 msgstr "产品系列正在准备中，欢迎联系我们了解更多。"

@@ -43,6 +43,9 @@ msgstr "Warenkorb"
 msgid "Born alone. Our shadow, an eternal companion. Walk your own path. Make this life count."
 msgstr "Allein geboren. Unser Schatten, ein ewiger Begleiter. Geh deinen eigenen Weg. Mach dieses Leben zu deinem."
 
+msgid "Born into solitude."
+msgstr "In die Einsamkeit geboren."
+
 msgid "Browse the shop"
 msgstr "Zum Shop"
 
@@ -108,6 +111,9 @@ msgstr "Möglichkeiten entdecken"
 
 msgid "FOUR WAYS TO GO FURTHER"
 msgstr "VIER WEGE, WEITERZUKOMMEN"
+
+msgid "Face every trial. Forge ahead. Make this life count."
+msgstr "Allen Widrigkeiten trotzen. Mutig vorangehen. Ein erfülltes Leben führen."
 
 msgid "Field notes"
 msgstr "Unterwegs"
@@ -216,6 +222,9 @@ msgstr "Auf deine Weise."
 
 msgid "One per line: label | value. Confirm all specifications before publishing."
 msgstr "Eine Angabe pro Zeile: Bezeichnung | Wert. Vor Veröffentlichung prüfen."
+
+msgid "Only our shadow stays forever."
+msgstr "Nur unser Schatten bleibt für immer."
 
 msgid "Our collection is getting ready. Contact us to find your next ride."
 msgstr "Unsere Kollektion entsteht. Kontaktiere uns für dein nächstes Fahrzeug."

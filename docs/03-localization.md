@@ -2,9 +2,11 @@
 
 ## 本版实际能力
 
-默认语言为英语，提供简体中文、德语、法语、西班牙语各 100 条主题/询价文案翻译，源码位于 `translations`，编译产物位于主题 `languages`。这是界面文案，不包含商品、政策、WooCommerce 自身或支付插件的全部内容。
+默认语言为英语，提供简体中文、德语、法语、西班牙语各 112 条主题/询价文案翻译，源码位于 `translations`，编译产物位于主题 `languages`。这是界面文案，不包含商品、政策、WooCommerce 自身或支付插件的全部内容。
 
-主题已集成 WPML 语言选择器（仅列出当前页面已有翻译）和 WCML 货币选择器，`wpml-config.xml` 将询价开关同步、技术规格设置为翻译。未安装 WPML 时不显示误导性的语言下拉框。设置 WordPress 站点语言可验证单一语言的主题翻译。
+主题已集成 WPML 语言选择器（仅列出当前页面已有翻译）和 WCML 货币选择器，`wpml-config.xml` 将询价开关同步、技术规格设置为翻译。未安装 WPML 时不显示误导性的语言下拉框。安装相应 WordPress 核心语言包并设置站点语言可验证单一语言的主题翻译（命令示例：`wp language core install zh_CN`，然后 `wp option update WPLANG zh_CN`）。
+
+首屏品牌价值主张随当前语言切换。中文保留原句；“行者”按不惧艰险、勇往直前的人生态度翻译，不按行走/旅行的字面意思翻译。五语言定稿及维护规则见 [视觉与品牌说明](09-visual-direction.md)。
 
 完整五语言商城需要 **WPML Multilingual CMS、String Translation、WPML Multilingual & Multicurrency for WooCommerce（WCML）**。商业许可证由站点所有者购买；本仓库不分发付费插件、不包含许可证和机器翻译额度。只有 WCML 免费插件不能完成本方案的全部多语言内容管理。参考 [WPML WooCommerce 官方说明](https://wpml.org/documentation/wpml-core-and-add-on-plugins/woocommerce-multilingual/)。
 

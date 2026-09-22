@@ -14,8 +14,8 @@ add_action('after_setup_theme', function () {
     register_nav_menus(['primary' => __('Main navigation', 'shadowalker'), 'footer' => __('Footer navigation', 'shadowalker')]);
 });
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('shadowalker', get_template_directory_uri() . '/assets/css/store.css', [], '1.1.0');
-    wp_enqueue_style('shadowalker-tech', get_template_directory_uri() . '/assets/css/tech.css', ['shadowalker'], '1.1.0');
+    wp_enqueue_style('shadowalker', get_template_directory_uri() . '/assets/css/store.css', [], '1.1.1');
+    wp_enqueue_style('shadowalker-tech', get_template_directory_uri() . '/assets/css/tech.css', ['shadowalker'], '1.1.1');
     wp_enqueue_script('shadowalker', get_template_directory_uri() . '/assets/js/store.js', [], '1.0.0', true);
     wp_script_add_data('shadowalker', 'strategy', 'defer');
 });

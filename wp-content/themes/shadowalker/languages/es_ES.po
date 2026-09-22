@@ -10,6 +10,9 @@ msgstr "Un poco de electricidad. Muchas posibilidades."
 msgid "A little off track"
 msgstr "Un pequeño desvío"
 
+msgid "A lone cyclist overlooking a mountain landscape"
+msgstr "Un ciclista solitario ante un paisaje de montaña"
+
 msgid "A new perspective"
 msgstr "Una nueva perspectiva"
 
@@ -31,8 +34,14 @@ msgstr "Todos los productos"
 msgid "An illustrated electric bike beside a lake and rolling hills"
 msgstr "Ilustración de una bicicleta eléctrica junto a un lago y colinas"
 
+msgid "BUILT FOR THE TINKERER"
+msgstr "PARA QUIENES CREAN CON SUS MANOS"
+
 msgid "Bag"
 msgstr "Carrito"
+
+msgid "Born alone. Our shadow, an eternal companion. Walk your own path. Make this life count."
+msgstr "Nacemos solos. Nuestra sombra, compañera eterna. Sigue tu propio camino. Vive una vida que cuente."
 
 msgid "Browse the shop"
 msgstr "Visitar la tienda"
@@ -49,6 +58,9 @@ msgstr "Revisa nombre, correo, país, cantidad, mensaje y consentimiento de priv
 msgid "Choose your own pace"
 msgstr "Elige tu propio ritmo"
 
+msgid "Close-up of a bicycle drivetrain and mechanical components"
+msgstr "Primer plano de la transmisión y los componentes de una bicicleta"
+
 msgid "Contact & wholesale"
 msgstr "Contacto y venta al por mayor"
 
@@ -63,6 +75,9 @@ msgstr "País de destino"
 
 msgid "Disable online purchase for this product and its variations."
 msgstr "Desactivar la compra en línea de este producto y sus variantes."
+
+msgid "Discover what moves you"
+msgstr "Descubre lo que te mueve"
 
 msgid "Electric bikes"
 msgstr "Bicicletas eléctricas"
@@ -108,6 +123,9 @@ msgstr "Encuentra tu vehículo"
 
 msgid "Footer navigation"
 msgstr "Navegación del pie"
+
+msgid "Four ways. Your way."
+msgstr "Cuatro caminos. El tuyo."
 
 msgid "From the morning commute to the open water. Discover a new way to move, explore, and make it your own."
 msgstr "Del trayecto diario al agua abierta. Descubre una nueva forma de moverte y explorar, a tu manera."
@@ -235,6 +253,9 @@ msgstr "Solicitar presupuesto"
 msgid "SAME BIKE. NEW ENERGY."
 msgstr "MISMA BICI. NUEVA ENERGÍA."
 
+msgid "Scenes for inspiration. Explore each product for its actual configuration."
+msgstr "Escenas de inspiración. Consulta cada producto para conocer su configuración real."
+
 msgid "Search results for: %s"
 msgstr "Resultados de búsqueda para: %s"
 
@@ -258,6 +279,12 @@ msgstr "Especificaciones"
 
 msgid "Starts with a little spark."
 msgstr "Empieza con una pequeña chispa."
+
+msgid "THE COLLECTION"
+msgstr "LA COLECCIÓN"
+
+msgid "THE INDEPENDENT SPIRIT"
+msgstr "EL ESPÍRITU INDEPENDIENTE"
 
 msgid "Talk to us"
 msgstr "Contacto"

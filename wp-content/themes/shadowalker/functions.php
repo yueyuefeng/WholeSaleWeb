@@ -14,7 +14,8 @@ add_action('after_setup_theme', function () {
     register_nav_menus(['primary' => __('Main navigation', 'shadowalker'), 'footer' => __('Footer navigation', 'shadowalker')]);
 });
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('shadowalker', get_template_directory_uri() . '/assets/css/store.css', [], '1.0.0');
+    wp_enqueue_style('shadowalker', get_template_directory_uri() . '/assets/css/store.css', [], '1.1.0');
+    wp_enqueue_style('shadowalker-tech', get_template_directory_uri() . '/assets/css/tech.css', ['shadowalker'], '1.1.0');
     wp_enqueue_script('shadowalker', get_template_directory_uri() . '/assets/js/store.js', [], '1.0.0', true);
     wp_script_add_data('shadowalker', 'strategy', 'defer');
 });
@@ -46,6 +47,14 @@ function sw_art(string $name, string $alt = '', string $class = ''): void {
     $allowed = ['cart', 'boat', 'bike', 'kit', 'landscape'];
     if (!in_array($name, $allowed, true)) { $name = 'bike'; }
     printf('<img class="%s" src="%s" alt="%s" width="800" height="600" loading="%s" decoding="async">', esc_attr($class), esc_url(get_template_directory_uri() . '/assets/images/' . $name . '.svg'), esc_attr($alt), $name === 'landscape' ? 'eager' : 'lazy');
+}
+/** Local editorial photography; uploaded product photographs take precedence. */
+function sw_photo(string $name, string $alt = '', string $class = '', bool $priority = false): void {
+    if (!in_array($name, ['hero', 'cart', 'boat', 'bike', 'kit'], true)) { return; }
+    $dimensions = [1200, 800];
+    $path = get_template_directory() . '/assets/photos/' . $name . '.webp';
+    if (is_file($path)) { $size = wp_getimagesize($path); if ($size) { $dimensions = [$size[0], $size[1]]; } }
+    printf('<img class="%s" src="%s" alt="%s" width="%d" height="%d" loading="%s" decoding="async"%s>', esc_attr($class), esc_url(get_template_directory_uri() . '/assets/photos/' . $name . '.webp'), esc_attr($alt), $dimensions[0], $dimensions[1], $priority ? 'eager' : 'lazy', $priority ? ' fetchpriority="high"' : '');
 }
 function sw_languages(): void {
     $languages = apply_filters('wpml_active_languages', null, ['skip_missing' => 1]);

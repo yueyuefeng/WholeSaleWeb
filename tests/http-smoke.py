@@ -15,7 +15,7 @@ def request(path, data=None):
     except urllib.error.HTTPError as error:
         return error.code, error.read().decode('utf-8'), error.url
 
-for path, text in [('/', 'Less ordinary.'), ('/shop/', 'woocommerce'), ('/contact/', 'sw-form'), ('/our-story/', 'Shadowalker')]:
+for path, text in [('/', 'manifesto-heading'), ('/shop/', 'woocommerce'), ('/contact/', 'sw-form'), ('/our-story/', 'Shadowalker')]:
     status, body, _ = request(path)
     assert status == 200 and text in body, (path, status)
     assert 'Fatal error' not in body and 'critical error' not in body, path

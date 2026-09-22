@@ -37,5 +37,6 @@ docker compose --profile tools run --rm cli wp shadowalker seed --allow-root
 6. [资源、预算与资料清单](docs/06-resources.md)
 7. [测试、上线与运维](docs/07-operations.md)
 8. [交付测试记录](docs/08-verification.md)
+9. [科技风视觉升级与摄影来源](docs/09-visual-direction.md)
 
 源代码：`wp-content/themes/shadowalker`、`wp-content/plugins/shadowalker-core`。WordPress 核心、第三方插件和付费许可证不纳入版本库。授权见 LICENSE。

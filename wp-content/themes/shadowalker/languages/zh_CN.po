@@ -10,6 +10,9 @@ msgstr "一点电力，无限可能。"
 msgid "A little off track"
 msgstr "似乎偏离了路线"
 
+msgid "A lone cyclist overlooking a mountain landscape"
+msgstr "独行骑者远眺山野的实拍照片"
+
 msgid "A new perspective"
 msgstr "换个角度看世界"
 
@@ -31,8 +34,14 @@ msgstr "全部产品"
 msgid "An illustrated electric bike beside a lake and rolling hills"
 msgstr "湖畔与群山前的电动自行车插画"
 
+msgid "BUILT FOR THE TINKERER"
+msgstr "为动手创造者而生"
+
 msgid "Bag"
 msgstr "购物袋"
+
+msgid "Born alone. Our shadow, an eternal companion. Walk your own path. Make this life count."
+msgstr "人生来孤独，唯有影为永恒伴侣，行者心态不虚此生。"
 
 msgid "Browse the shop"
 msgstr "浏览商城"
@@ -49,6 +58,9 @@ msgstr "请检查姓名、邮箱、国家、数量、留言和隐私同意选项
 msgid "Choose your own pace"
 msgstr "找到自己的节奏"
 
+msgid "Close-up of a bicycle drivetrain and mechanical components"
+msgstr "自行车传动与机械零件的实拍特写"
+
 msgid "Contact & wholesale"
 msgstr "联系与批发合作"
 
@@ -63,6 +75,9 @@ msgstr "目的地国家"
 
 msgid "Disable online purchase for this product and its variations."
 msgstr "关闭此商品及其变体的在线购买。"
+
+msgid "Discover what moves you"
+msgstr "探索出行的意义"
 
 msgid "Electric bikes"
 msgstr "电动自行车"
@@ -108,6 +123,9 @@ msgstr "寻找你的座驾"
 
 msgid "Footer navigation"
 msgstr "页脚导航"
+
+msgid "Four ways. Your way."
+msgstr "四种路径，自成一派。"
 
 msgid "From the morning commute to the open water. Discover a new way to move, explore, and make it your own."
 msgstr "从清晨通勤，到开阔水面。探索新的出行方式，让每段旅程都属于自己。"
@@ -235,6 +253,9 @@ msgstr "获取报价"
 msgid "SAME BIKE. NEW ENERGY."
 msgstr "熟悉的车，全新的动力。"
 
+msgid "Scenes for inspiration. Explore each product for its actual configuration."
+msgstr "场景摄影仅供灵感参考，实际配置请查看具体产品。"
+
 msgid "Search results for: %s"
 msgstr "搜索结果：%s"
 
@@ -258,6 +279,12 @@ msgstr "规格参数"
 
 msgid "Starts with a little spark."
 msgstr "从一点电力开始。"
+
+msgid "THE COLLECTION"
+msgstr "产品系列"
+
+msgid "THE INDEPENDENT SPIRIT"
+msgstr "独行者精神"
 
 msgid "Talk to us"
 msgstr "联系我们"

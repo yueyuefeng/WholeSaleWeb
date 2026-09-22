@@ -10,6 +10,9 @@ msgstr "Ein wenig elektrisch. Vieles möglich."
 msgid "A little off track"
 msgstr "Vom Weg abgekommen"
 
+msgid "A lone cyclist overlooking a mountain landscape"
+msgstr "Ein einzelner Radfahrer blickt über eine Berglandschaft"
+
 msgid "A new perspective"
 msgstr "Eine neue Perspektive"
 
@@ -31,8 +34,14 @@ msgstr "Alle Produkte"
 msgid "An illustrated electric bike beside a lake and rolling hills"
 msgstr "Illustration eines E-Bikes am See vor sanften Hügeln"
 
+msgid "BUILT FOR THE TINKERER"
+msgstr "FÜR TÜFTLER GEMACHT"
+
 msgid "Bag"
 msgstr "Warenkorb"
+
+msgid "Born alone. Our shadow, an eternal companion. Walk your own path. Make this life count."
+msgstr "Allein geboren. Unser Schatten, ein ewiger Begleiter. Geh deinen eigenen Weg. Mach dieses Leben zu deinem."
 
 msgid "Browse the shop"
 msgstr "Zum Shop"
@@ -49,6 +58,9 @@ msgstr "Bitte Name, E-Mail, Land, Menge, Nachricht und Datenschutzeinwilligung p
 msgid "Choose your own pace"
 msgstr "Dein eigenes Tempo"
 
+msgid "Close-up of a bicycle drivetrain and mechanical components"
+msgstr "Nahaufnahme eines Fahrradantriebs und seiner Komponenten"
+
 msgid "Contact & wholesale"
 msgstr "Kontakt & Großhandel"
 
@@ -63,6 +75,9 @@ msgstr "Zielland"
 
 msgid "Disable online purchase for this product and its variations."
 msgstr "Onlinekauf für dieses Produkt und seine Varianten deaktivieren."
+
+msgid "Discover what moves you"
+msgstr "Entdecke, was dich bewegt"
 
 msgid "Electric bikes"
 msgstr "E-Bikes"
@@ -108,6 +123,9 @@ msgstr "Finde dein Fahrzeug"
 
 msgid "Footer navigation"
 msgstr "Fußnavigation"
+
+msgid "Four ways. Your way."
+msgstr "Vier Wege. Dein Weg."
 
 msgid "From the morning commute to the open water. Discover a new way to move, explore, and make it your own."
 msgstr "Vom Arbeitsweg bis aufs offene Wasser. Entdecke eine neue Art, unterwegs zu sein – auf deine Weise."
@@ -235,6 +253,9 @@ msgstr "Angebot anfragen"
 msgid "SAME BIKE. NEW ENERGY."
 msgstr "GLEICHES RAD. NEUE ENERGIE."
 
+msgid "Scenes for inspiration. Explore each product for its actual configuration."
+msgstr "Szenen zur Inspiration. Die tatsächliche Ausstattung findest du beim jeweiligen Produkt."
+
 msgid "Search results for: %s"
 msgstr "Suchergebnisse für: %s"
 
@@ -258,6 +279,12 @@ msgstr "Technische Daten"
 
 msgid "Starts with a little spark."
 msgstr "Beginnt mit einem kleinen Funken."
+
+msgid "THE COLLECTION"
+msgstr "DIE KOLLEKTION"
+
+msgid "THE INDEPENDENT SPIRIT"
+msgstr "DER UNABHÄNGIGE GEIST"
 
 msgid "Talk to us"
 msgstr "Kontakt"

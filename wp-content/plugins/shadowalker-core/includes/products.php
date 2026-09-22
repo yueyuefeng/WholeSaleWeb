@@ -5,7 +5,7 @@ add_filter('woocommerce_placeholder_img_src', function ($src) {
     if (!$product || !is_a($product, 'WC_Product') || $product->get_meta('_sw_demo') !== 'yes') { return $src; }
     $art = $product->get_meta('_sw_art');
     if (!in_array($art, ['cart', 'boat', 'bike', 'kit'], true) || get_template() !== 'shadowalker') { return $src; }
-    return get_template_directory_uri() . '/assets/images/' . $art . '.svg';
+    return get_template_directory_uri() . '/assets/photos/' . $art . '.webp';
 });
 function sw_is_quote_product($product): bool {
     if (!$product || !is_a($product, 'WC_Product')) { return false; }

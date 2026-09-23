@@ -81,4 +81,3 @@ try {
     wp_set_current_user($previous_user);
 }
 echo "$assertions chat assertions passed.\n";
-

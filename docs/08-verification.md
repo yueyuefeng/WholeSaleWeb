@@ -61,4 +61,3 @@ Playwright + Edge 检查 1440px / 390px 首页及 390px 商城，无水平溢出
 - CI 已纳入 `tests/selection.php` 和 `tests/selection-http.py`，Docker/MariaDB 运行结果以该提交的 GitHub Actions 为准。
 
 配置器目前保存询价偏好，不计算报价、锁库存或生成订单；兼容工具只有初筛能力。真实 SKU/规则、商业 WPML、多国家支付退款、物流与实际 AI 服务仍未验收。详见 [选购工具说明](11-selection-tools.md)。
-

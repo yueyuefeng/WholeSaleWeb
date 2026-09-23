@@ -31,4 +31,3 @@ add_action('wp_body_open', function () {
         echo '<div class="sw-demo-notice">' . esc_html__('Demo catalog — sample products, illustrations and prices. Not a live store.', 'shadowalker') . '</div>';
     }
 });
-

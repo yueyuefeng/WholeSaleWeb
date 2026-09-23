@@ -66,4 +66,3 @@ add_shortcode('shadowalker_chat', function () {
     </section>
     <?php return ob_get_clean();
 });
-

@@ -62,3 +62,4 @@ WP_CLI::add_command('shadowalker seed', function () {
     flush_rewrite_rules();
     WP_CLI::success('Demo pages and products added. Existing products and pages preserved. Replace all sample content before launch.');
 });
+

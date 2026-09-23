@@ -71,3 +71,4 @@ add_filter('woocommerce_product_add_to_cart_text', function ($text, $product) {
     return function_exists('sw_is_quote_product') && sw_is_quote_product($product) ? __('View details', 'shadowalker') : $text;
 }, 10, 2);
 add_filter('body_class', function ($classes) { $classes[] = 'shadowalker'; return $classes; });
+

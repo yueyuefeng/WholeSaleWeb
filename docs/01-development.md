@@ -61,3 +61,4 @@ WooCommerce 负责价格、币种、税、库存、订单、退款、购物车�
 ## 开发验证原则
 
 先 PHP 语法检查，再在真实 WordPress/WooCommerce 中验证购买限制、询价权限、翻译加载和数据幂等，再做桌面/移动 UI 检查。Docker/MariaDB、付费 WPML、真实网关和域名 HTTPS 的验证状态单独记录，不能用静态页面截图替代真实订单验收。
+

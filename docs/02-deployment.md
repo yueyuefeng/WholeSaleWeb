@@ -105,3 +105,4 @@ docker compose exec -T wordpress tar -czf - -C /var/www/html wp-content > backup
 - 无支付方式：账户未连接、测试/生产模式混用、币种/客户国家不符或插件未启用。
 - 无运费：没有匹配配送区/运输方式，或商品重量尺寸未填；不能默认所有国家免费送达。
 - 询价限速误伤：代理后 REMOTE_ADDR 可能相同。应在可信反向代理/Apache 配置真实客户端 IP；不要直接信任访客传入的 X-Forwarded-For。
+

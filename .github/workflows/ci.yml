@@ -35,7 +35,9 @@ jobs:
           docker compose --profile tools run --rm -T cli wp eval-file /workspace/tests/integration.php
           docker compose --profile tools run --rm -T cli wp eval-file /workspace/tests/manifesto.php
           docker compose --profile tools run --rm -T cli wp eval-file /workspace/tests/chat.php
+          docker compose --profile tools run --rm -T cli wp eval-file /workspace/tests/selection.php
           python3 tests/chat-http.py http://localhost:8080
+          python3 tests/selection-http.py http://localhost:8080
           python3 tests/http-smoke.py http://localhost:8080
       - name: Record versions and container logs
         if: always()

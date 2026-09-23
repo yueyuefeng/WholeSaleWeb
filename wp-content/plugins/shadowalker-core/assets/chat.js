@@ -4,7 +4,7 @@
     const form = root.querySelector('form'), input = form.querySelector('textarea');
     const log = root.querySelector('[role=log]'), status = root.querySelector('[role=status]');
     const handoff = root.querySelector('[data-handoff]'), remove = root.querySelector('[data-delete]'), start = root.querySelector('[data-new]');
-    const key = `shadowalker-chat-v1:${config.locale}:${config.product_id}`;
+    const key = `shadowalker-chat-v1:${config.locale}:${config.product_id}${config.plan ? ':' + config.plan : ''}`;
     let session = null, busy = false, polling = false, pending = null, stopped = false, generation = 0;
     const rendered = new Set();
     try { const value = JSON.parse(sessionStorage.getItem(key)); if (Number.isInteger(value?.id) && /^[a-f0-9]{64}$/.test(value?.token)) session = value; } catch (_) { /* Private browsing may disable storage. */ }
@@ -27,13 +27,14 @@
     }
     function failure(error) {
       let text = t.error;
+      if (error.code === 'selection_plan') { stopped = true; text = t.plan; }
       if (error.code === 'chat_rate' || error.code === 'chat_busy') text = t.rate;
       if (error.code === 'chat_session' || error.code === 'chat_full') { stopped = true; start.hidden = false; text = error.code === 'chat_full' ? t.full : t.expired; }
       if (error.code === 'chat_nonce' || error.code === 'rest_cookie_invalid_nonce') { stopped = true; text = t.reload; }
       notify(text, true);
     }
     async function ensureSession() {
-      if (!session) { session = await request('', 'POST', {locale:config.locale, product_id:config.product_id}); save(); }
+      if (!session) { session = await request('', 'POST', {locale:config.locale, product_id:config.product_id, plan:config.plan || ''}); save(); }
     }
     function render(data) {
       const atBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 70;

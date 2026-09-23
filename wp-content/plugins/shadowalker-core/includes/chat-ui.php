@@ -2,8 +2,8 @@
 defined('ABSPATH') || exit;
 add_action('wp_enqueue_scripts', function () {
     $base = plugins_url('assets/', dirname(__DIR__) . '/shadowalker-core.php');
-    wp_register_style('shadowalker-chat', $base . 'chat.css', [], '1.2.0');
-    wp_register_script('shadowalker-chat', $base . 'chat.js', [], '1.2.0', true);
+    wp_register_style('shadowalker-chat', $base . 'chat.css', [], '1.3.0');
+    wp_register_script('shadowalker-chat', $base . 'chat.js', [], '1.3.0', true);
     wp_script_add_data('shadowalker-chat', 'strategy', 'defer');
     $post = get_post();
     if (is_page('contact') || is_page_template('page-contact.php') || ($post && has_shortcode($post->post_content, 'shadowalker_chat'))) {
@@ -15,6 +15,11 @@ add_shortcode('shadowalker_chat', function () {
     $product_id = isset($_GET['product_id']) && is_scalar($_GET['product_id']) ? absint($_GET['product_id']) : 0;
     $product = get_post($product_id);
     if (!$product || $product->post_type !== 'product' || $product->post_status !== 'publish') { $product = null; $product_id = 0; }
+    $plan=isset($_GET['plan'])?wp_unslash($_GET['plan']):''; $selection=null;
+    if ($plan!=='') {
+        $selection=sw_selection_read_plan($plan);
+        if (!is_wp_error($selection)) { $product_id=$selection['product_id']; $product=get_post($product_id); }
+    }
     $config = ['base' => rest_url('shadowalker/v1/chat'), 'nonce' => wp_create_nonce('sw_chat'), 'restNonce' => wp_create_nonce('wp_rest'), 'locale' => get_locale(), 'product_id' => $product_id, 'bot' => sw_chat_bot_enabled(), 'strings' => [
         'visitor' => __('You', 'shadowalker'), 'assistant' => __('AI assistant', 'shadowalker'), 'agent' => __('Shadowalker team', 'shadowalker'),
         'sending' => __('Sending…', 'shadowalker'), 'saved' => __('Message saved. Waiting for a team reply.', 'shadowalker'), 'ready' => __('AI assistance enabled', 'shadowalker'),
@@ -24,6 +29,8 @@ add_shortcode('shadowalker_chat', function () {
         'human' => __('Human support requested. Replies appear here when available.', 'shadowalker'), 'replied' => __('A team member has replied.', 'shadowalker'),
         'reload' => __('Your session expired. Reload this page; your draft is still here.', 'shadowalker'),
     ]];
+    $config['plan']=is_string($plan)?$plan:'';
+    $config['strings']['plan']=__('This plan is unavailable or has expired. Please create a new plan.', 'shadowalker');
     $privacy = get_privacy_policy_url() ?: home_url('/privacy-policy/');
     ob_start(); ?>
     <section class="sw-chat" data-chat-config="<?php echo esc_attr(wp_json_encode($config)); ?>" aria-label="<?php esc_attr_e('Chat with Shadowalker', 'shadowalker'); ?>">
@@ -41,6 +48,7 @@ add_shortcode('shadowalker_chat', function () {
       <div class="sw-chat-panel">
         <div class="sw-chat-header"><div><strong><?php esc_html_e('Chat with Shadowalker', 'shadowalker'); ?></strong><p><?php echo sw_chat_bot_enabled() ? esc_html__('AI assistance enabled', 'shadowalker') : esc_html__('Team inbox · replies are not instant', 'shadowalker'); ?></p></div><span aria-hidden="true">S∕</span></div>
         <?php if ($product) { ?><div class="sw-chat-product"><?php esc_html_e('Product', 'shadowalker'); ?>: <?php echo esc_html($product->post_title); ?></div><?php } ?>
+        <?php if ($selection && !is_wp_error($selection)) { ?><details class="sw-chat-plan" open><summary><?php esc_html_e('Your selection is shared with our team', 'shadowalker'); ?></summary><pre><?php echo esc_html(implode("\n",sw_selection_summary($selection))); ?></pre></details><?php } elseif (is_wp_error($selection)) { ?><p role="alert"><?php esc_html_e('This plan is unavailable or has expired. Please create a new plan.', 'shadowalker'); ?></p><?php } ?>
         <div class="sw-chat-log" role="log" aria-live="polite" aria-relevant="additions" tabindex="0" aria-label="<?php esc_attr_e('Conversation', 'shadowalker'); ?>">
           <div class="sw-chat-message sw-chat-welcome"><span><?php esc_html_e('Welcome', 'shadowalker'); ?></span><p><?php esc_html_e('What would you like to explore? Send a message to start the conversation.', 'shadowalker'); ?></p></div>
         </div>

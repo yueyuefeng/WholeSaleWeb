@@ -35,6 +35,8 @@ function sw_chat_admin_page(): void {
         $product = get_post((int) get_post_meta($id, '_sw_product', true));
         echo '<h2>#' . (int) $id . ' · ' . esc_html(get_post_meta($id, '_sw_locale', true)) . '</h2>';
         if ($product && $product->post_type === 'product') { echo '<p>' . esc_html__('Product', 'shadowalker') . ': ' . esc_html($product->post_title) . '</p>'; }
+        $selection=get_post_meta($id,'_sw_selection',true);
+        if (is_array($selection)) { echo '<h3>'.esc_html__('Plan reference', 'shadowalker').'</h3><pre style="max-width:850px;white-space:pre-wrap;overflow-wrap:anywhere">'.esc_html(implode("\n",sw_selection_summary(sw_selection_refresh_context($selection)))).'</pre>'; }
         echo '<div style="max-width:850px;background:white;padding:20px;border:1px solid #ccd0d4">';
         foreach (sw_chat_messages($id) as $message) {
             $roles = ['visitor' => __('Visitor', 'shadowalker'), 'agent' => __('Shadowalker team', 'shadowalker'), 'assistant' => __('AI assistant', 'shadowalker')];

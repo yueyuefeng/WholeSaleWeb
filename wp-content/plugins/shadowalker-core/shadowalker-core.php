@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Shadowalker Core
  * Description: Mobility product specifications, quote-only sales, protected inquiries and explicit demo setup.
- * Version: 1.2.0
+ * Version: 1.3.0
  * Requires at least: 6.6
  * Requires PHP: 8.2
  * Text Domain: shadowalker
@@ -10,6 +10,8 @@
  */
 defined('ABSPATH') || exit;
 require_once __DIR__ . '/includes/products.php';
+require_once __DIR__ . '/includes/selection-data.php';
+require_once __DIR__ . '/includes/selection.php';
 require_once __DIR__ . '/includes/inquiries.php';
 require_once __DIR__ . '/includes/chat.php';
 register_deactivation_hook(__FILE__, function () { wp_clear_scheduled_hook('sw_chat_cleanup'); });

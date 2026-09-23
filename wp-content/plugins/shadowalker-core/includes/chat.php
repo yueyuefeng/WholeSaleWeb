@@ -69,7 +69,8 @@ function sw_chat_append(int $id, string $role, string $text, string $request_id 
 }
 /** Server-side adapter contract: return plain text, null (handoff), or WP_Error. Never expose credentials to JS. */
 function sw_chat_bot_context(int $id): array {
-    return ['conversation_id' => $id, 'locale' => get_post_meta($id, '_sw_locale', true), 'product_id' => (int) get_post_meta($id, '_sw_product', true), 'messages' => array_slice(sw_chat_messages($id), -20)];
+    $selection=get_post_meta($id, '_sw_selection', true);
+    return ['conversation_id' => $id, 'locale' => get_post_meta($id, '_sw_locale', true), 'product_id' => (int) get_post_meta($id, '_sw_product', true), 'messages' => array_slice(sw_chat_messages($id), -20), 'selection'=>is_array($selection)?sw_selection_refresh_context($selection):null];
 }
 function sw_chat_http_reply(array $context, string $url, string $key) {
     if (wp_parse_url($url, PHP_URL_SCHEME) !== 'https') { return sw_chat_error('chat_bot_config'); }
@@ -95,12 +96,19 @@ add_action('rest_api_init', function () {
         $product_id = $request->get_param('product_id');
         $product_id = is_scalar($product_id) ? absint($product_id) : 0;
         if (get_post_type($product_id) !== 'product' || get_post_status($product_id) !== 'publish') { $product_id = 0; }
+        $selection=null; $plan=$request->get_param('plan');
+        if ($plan!==null && $plan!=='') {
+            $selection=sw_selection_read_plan($plan);
+            if (is_wp_error($selection)) { return $selection; }
+            $product_id=$selection['product_id'];
+        }
         $token = bin2hex(random_bytes(32));
         $id = wp_insert_post(['post_type' => 'sw_chat', 'post_status' => 'private', 'post_title' => 'Chat / ' . gmdate('Y-m-d H:i')], true);
         if (is_wp_error($id) || !$id) { return sw_chat_error('chat_storage', 503); }
         update_post_meta($id, '_sw_token', hash('sha256', $token));
         update_post_meta($id, '_sw_locale', $locale);
         update_post_meta($id, '_sw_product', $product_id);
+        if ($selection) { update_post_meta($id, '_sw_selection', $selection); }
         update_post_meta($id, '_sw_mode', sw_chat_bot_enabled() ? 'bot' : 'human');
         update_post_meta($id, '_sw_expires', time() + 30 * DAY_IN_SECONDS);
         update_post_meta($id, '_sw_updated', time());

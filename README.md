@@ -21,6 +21,7 @@ docker compose --profile tools run --rm cli wp shadowalker seed --allow-root
 - 响应式品牌主题：首页、原生 WooCommerce 商品列表/详情/购物车/结账/账户、搜索、文章与内容页。
 - Shadowalker Core：整车询价模式、后台询价管理、服务端表单校验与防刷、商品技术规格、幂等演示数据命令。
 - 联系页直接聊天：匿名会话、消息记录、后台人工回复、转人工、访客删除；预留服务端机器人钩子与 HTTPS 适配协议。未配置机器人时只显示真实的人工消息状态。
+- 选购工具（1.3.0）：分品类参数与详情、三款同类对比、改装兼容初筛、车/船询价配置、方案分享/下载与聊天上下文。规则由后台维护，缺少审核资料时交由人工确认；不生成正式报价或库存/运费承诺。
 - 英文默认主题，简中/德/法/西主题翻译包；WPML 语言切换、WCML 货币切换集成。**完整多语言商品/结账需购买并配置 WPML CMS、String Translation、WCML，翻译商品及政策；翻译包不等同于全站已翻译。**
 - 官方 Stripe、PayPal 插件安装脚本，未自动启用真实支付。渠道显示由官方网关根据商户资格、币种、设备及客户国家决定。
 - WooCommerce Product 结构化数据、WordPress 标题/语义化页面、Yoast 安装与多语言 SEO 操作手册。
@@ -40,5 +41,7 @@ docker compose --profile tools run --rm cli wp shadowalker seed --allow-root
 8. [交付测试记录](docs/08-verification.md)
 9. [科技风视觉升级与摄影来源](docs/09-visual-direction.md)
 10. [聊天页面、人工客服与机器人接入](docs/10-chat-and-bot.md)
+11. [选购工具、商品参数与升级部署](docs/11-selection-tools.md)
+12. [同行研究和后续路线图](docs/12-competitor-roadmap.md)
 
 源代码：`wp-content/themes/shadowalker`、`wp-content/plugins/shadowalker-core`。WordPress 核心、第三方插件和付费许可证不纳入版本库。授权见 LICENSE。

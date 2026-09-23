@@ -25,14 +25,32 @@ msgstr "Dein eigenes Projekt."
 msgid "A quieter way around."
 msgstr "Leiser unterwegs."
 
+msgid "A team member has replied."
+msgstr "Das Team hat geantwortet."
+
 msgid "A world to explore."
 msgstr "Eine Welt zu entdecken."
+
+msgid "AI assistance enabled"
+msgstr "KI-Unterstützung aktiviert"
+
+msgid "AI assistant"
+msgstr "KI-Assistent"
 
 msgid "All products"
 msgstr "Alle Produkte"
 
 msgid "An illustrated electric bike beside a lake and rolling hills"
 msgstr "Illustration eines E-Bikes am See vor sanften Hügeln"
+
+msgid "Ask about a ride, a build, or a destination. No contact form required."
+msgstr "Fragen zu Fahrzeug, Umbau oder Reiseziel? Kein Kontaktformular nötig."
+
+msgid "Ask for a person"
+msgstr "Mit einem Menschen sprechen"
+
+msgid "Avoid payment details or sensitive information. AI replies, when enabled, are labelled and may be inaccurate; confirm specifications with our team."
+msgstr "Keine Zahlungsdaten oder sensiblen Informationen senden. KI-Antworten sind gekennzeichnet und können fehlerhaft sein. Spezifikationen bitte mit unserem Team bestätigen."
 
 msgid "BUILT FOR THE TINKERER"
 msgstr "FÜR TÜFTLER GEMACHT"
@@ -49,8 +67,17 @@ msgstr "In die Einsamkeit geboren."
 msgid "Browse the shop"
 msgstr "Zum Shop"
 
+msgid "CONVERSATIONS"
+msgstr "IM GESPRÄCH"
+
 msgid "Change the journey."
 msgstr "Verändere deinen Weg."
+
+msgid "Chat inbox"
+msgstr "Chat-Postfach"
+
+msgid "Chat with Shadowalker"
+msgstr "Chat mit Shadowalker"
 
 msgid "Check email delivery"
 msgstr "E-Mail-Zustellung prüfen"
@@ -67,8 +94,26 @@ msgstr "Nahaufnahme eines Fahrradantriebs und seiner Komponenten"
 msgid "Contact & wholesale"
 msgstr "Kontakt & Großhandel"
 
+msgid "Conversation"
+msgstr "Gespräch"
+
+msgid "Conversation access lasts 30 days. Keep this tab for replies; no email is required."
+msgstr "Der Chat bleibt 30 Tage zugänglich. Lass diesen Tab für Antworten offen; keine E-Mail nötig."
+
+msgid "Conversation deleted. You can start again."
+msgstr "Chat gelöscht. Du kannst neu beginnen."
+
+msgid "Conversation starters"
+msgstr "Gesprächseinstieg"
+
 msgid "Conversion kits"
 msgstr "Umrüstsätze"
+
+msgid "Delete conversation"
+msgstr "Chat löschen"
+
+msgid "Delete this conversation and all its messages? This cannot be undone."
+msgstr "Diesen Chat und alle Nachrichten unwiderruflich löschen?"
 
 msgid "Demo catalog — sample products, illustrations and prices. Not a live store."
 msgstr "Demokatalog – Beispielprodukte, Illustrationen und Preise. Kein aktiver Shop."
@@ -90,6 +135,12 @@ msgstr "Elektroboote"
 
 msgid "Email address"
 msgstr "E-Mail-Adresse"
+
+msgid "Enable JavaScript to chat, or use the detailed inquiry form below."
+msgstr "Aktiviere JavaScript für den Chat oder nutze das Anfrageformular unten."
+
+msgid "Enter to send · Shift + Enter for a new line"
+msgstr "Enter zum Senden · Shift + Enter für neue Zeile"
 
 msgid "Explore"
 msgstr "Entdecken"
@@ -148,6 +199,9 @@ msgstr "Golfcarts"
 msgid "Here to help"
 msgstr "Service"
 
+msgid "Human support requested. Replies appear here when available."
+msgstr "Persönliche Betreuung angefragt. Antworten erscheinen hier, sobald sie vorliegen."
+
 msgid "I agree to the processing of my inquiry as described in the"
 msgstr "Ich stimme der Verarbeitung meiner Anfrage gemäß folgender Richtlinie zu:"
 
@@ -169,6 +223,9 @@ msgstr "FINDEN WIR DEINEN WEG"
 msgid "Language"
 msgstr "Sprache"
 
+msgid "Last activity"
+msgstr "Letzte Aktivität"
+
 msgid "Leave only a ripple."
 msgstr "Nur Wellen hinterlassen."
 
@@ -183,6 +240,9 @@ msgstr "Finden wir zurück."
 
 msgid "Let’s talk"
 msgstr "Sprechen wir darüber"
+
+msgid "Let’s talk."
+msgstr "Lass uns reden."
 
 msgid "MEET YOUR NEXT ADVENTURE"
 msgstr "DEIN NÄCHSTES ABENTEUER"
@@ -202,11 +262,20 @@ msgstr "Elektrisch unterwegs"
 msgid "Menu"
 msgstr "Menü"
 
+msgid "Message saved. Waiting for a team reply."
+msgstr "Nachricht gespeichert. Wir warten auf eine Antwort des Teams."
+
+msgid "Messages may be processed by our configured AI provider."
+msgstr "Nachrichten können von unserem konfigurierten KI-Anbieter verarbeitet werden."
+
 msgid "More electric."
 msgstr "Mehr elektrisch."
 
 msgid "My account"
 msgstr "Mein Konto"
+
+msgid "Needs reply"
+msgstr "Antwort ausstehend"
 
 msgid "Nothing here yet. Try another search."
 msgstr "Keine Ergebnisse. Versuche eine andere Suche."
@@ -235,6 +304,9 @@ msgstr "Unsere Geschichte"
 msgid "Please wait before sending another inquiry."
 msgstr "Bitte warte, bevor du eine weitere Anfrage sendest."
 
+msgid "Prefer a detailed quote?"
+msgstr "Lieber ein ausführliches Angebot?"
+
 msgid "Price on request"
 msgstr "Preis auf Anfrage"
 
@@ -256,6 +328,12 @@ msgstr "Nur auf Anfrage"
 msgid "Ready for a different route."
 msgstr "Bereit für einen neuen Weg."
 
+msgid "Refresh to check for new messages. Replies are shown in the visitor’s open chat tab."
+msgstr "Aktualisieren, um neue Nachrichten zu sehen. Antworten erscheinen im offenen Chat-Tab des Besuchers."
+
+msgid "Replied"
+msgstr "Beantwortet"
+
 msgid "Request a quote"
 msgstr "Angebot anfragen"
 
@@ -274,8 +352,20 @@ msgstr "Land auswählen"
 msgid "Send inquiry"
 msgstr "Anfrage senden"
 
+msgid "Send message"
+msgstr "Nachricht senden"
+
+msgid "Send reply"
+msgstr "Antwort senden"
+
+msgid "Sending…"
+msgstr "Wird gesendet…"
+
 msgid "Sent"
 msgstr "Gesendet"
+
+msgid "Shadowalker team"
+msgstr "Shadowalker-Team"
 
 msgid "Shipping & returns"
 msgstr "Versand & Rückgabe"
@@ -286,8 +376,14 @@ msgstr "Zum Inhalt"
 msgid "Specifications"
 msgstr "Technische Daten"
 
+msgid "Start a new conversation"
+msgstr "Neuen Chat starten"
+
 msgid "Starts with a little spark."
 msgstr "Beginnt mit einem kleinen Funken."
+
+msgid "Status"
+msgstr "Status"
 
 msgid "THE COLLECTION"
 msgstr "DIE KOLLEKTION"
@@ -297,6 +393,9 @@ msgstr "DER UNABHÄNGIGE GEIST"
 
 msgid "Talk to us"
 msgstr "Kontakt"
+
+msgid "Team inbox · replies are not instant"
+msgstr "Team-Postfach · keine sofortige Antwort"
 
 msgid "Technical specifications"
 msgstr "Technische Daten"
@@ -316,23 +415,62 @@ msgstr "Danke. Deine Anfrage wurde gespeichert und wird von unserem Team geprüf
 msgid "The inquiry form is currently unavailable."
 msgstr "Das Anfrageformular ist derzeit nicht verfügbar."
 
+msgid "This conversation has expired. Start a new conversation to continue."
+msgstr "Dieser Chat ist abgelaufen. Starte einen neuen Chat."
+
+msgid "This conversation is full. Start a new conversation to continue."
+msgstr "Dieser Chat ist voll. Starte einen neuen Chat."
+
 msgid "This product requires a quote. Please contact us."
 msgstr "Für dieses Produkt ist ein Angebot erforderlich. Bitte kontaktiere uns."
+
+msgid "Too many requests. Please wait a minute and try again."
+msgstr "Zu viele Anfragen. Bitte eine Minute warten und erneut versuchen."
+
+msgid "Unable to connect. Your draft is kept; please try again."
+msgstr "Verbindung fehlgeschlagen. Dein Entwurf bleibt erhalten. Bitte erneut versuchen."
 
 msgid "View details"
 msgstr "Details ansehen"
 
+msgid "Visitor"
+msgstr "Besucher"
+
 msgid "We could not save your inquiry. Please try again."
 msgstr "Deine Anfrage konnte nicht gespeichert werden. Bitte versuche es erneut."
+
+msgid "Welcome"
+msgstr "Willkommen"
+
+msgid "What would you like to explore? Send a message to start the conversation."
+msgstr "Was möchtest du entdecken? Sende eine Nachricht, um loszulegen."
 
 msgid "Where will you go?"
 msgstr "Wohin geht es für dich?"
 
+msgid "Write your message…"
+msgstr "Nachricht schreiben…"
+
+msgid "You"
+msgstr "Du"
+
 msgid "Your bike. A new possibility."
 msgstr "Dein Rad. Neue Möglichkeiten."
+
+msgid "Your message"
+msgstr "Deine Nachricht"
 
 msgid "Your name"
 msgstr "Dein Name"
 
+msgid "Your next move starts here."
+msgstr "Dein nächster Schritt beginnt hier."
+
+msgid "Your reply"
+msgstr "Deine Antwort"
+
 msgid "Your session expired. Reload the form and try again."
 msgstr "Deine Sitzung ist abgelaufen. Bitte lade das Formular neu."
+
+msgid "Your session expired. Reload this page; your draft is still here."
+msgstr "Deine Sitzung ist abgelaufen. Kopiere deinen Entwurf und lade die Seite neu."

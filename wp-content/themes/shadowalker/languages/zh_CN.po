@@ -25,14 +25,32 @@ msgstr "或一个属于你的改装计划。"
 msgid "A quieter way around."
 msgstr "安静出行，轻松抵达。"
 
+msgid "A team member has replied."
+msgstr "客服已回复。"
+
 msgid "A world to explore."
 msgstr "一个值得探索的世界。"
+
+msgid "AI assistance enabled"
+msgstr "智能助手已接入"
+
+msgid "AI assistant"
+msgstr "智能助手"
 
 msgid "All products"
 msgstr "全部产品"
 
 msgid "An illustrated electric bike beside a lake and rolling hills"
 msgstr "湖畔与群山前的电动自行车插画"
+
+msgid "Ask about a ride, a build, or a destination. No contact form required."
+msgstr "聊聊车型、改装方案或目的地，无需先填联系表。"
+
+msgid "Ask for a person"
+msgstr "转人工客服"
+
+msgid "Avoid payment details or sensitive information. AI replies, when enabled, are labelled and may be inaccurate; confirm specifications with our team."
+msgstr "请勿发送支付资料或敏感信息。启用后的智能回复会明确标注，内容可能不准确；产品规格请与客服确认。"
 
 msgid "BUILT FOR THE TINKERER"
 msgstr "为动手创造者而生"
@@ -49,8 +67,17 @@ msgstr "人生来孤独，"
 msgid "Browse the shop"
 msgstr "浏览商城"
 
+msgid "CONVERSATIONS"
+msgstr "沟通联系"
+
 msgid "Change the journey."
 msgstr "改变每段旅程。"
+
+msgid "Chat inbox"
+msgstr "聊天收件箱"
+
+msgid "Chat with Shadowalker"
+msgstr "与 Shadowalker 对话"
 
 msgid "Check email delivery"
 msgstr "请检查邮件投递"
@@ -67,8 +94,26 @@ msgstr "自行车传动与机械零件的实拍特写"
 msgid "Contact & wholesale"
 msgstr "联系与批发合作"
 
+msgid "Conversation"
+msgstr "会话记录"
+
+msgid "Conversation access lasts 30 days. Keep this tab for replies; no email is required."
+msgstr "会话有效期为 30 天。请保留此标签页接收回复，无需邮箱。"
+
+msgid "Conversation deleted. You can start again."
+msgstr "会话已删除，可以重新开始。"
+
+msgid "Conversation starters"
+msgstr "选择话题"
+
 msgid "Conversion kits"
 msgstr "电动改装套件"
+
+msgid "Delete conversation"
+msgstr "删除会话"
+
+msgid "Delete this conversation and all its messages? This cannot be undone."
+msgstr "删除此会话及全部消息？此操作无法撤销。"
 
 msgid "Demo catalog — sample products, illustrations and prices. Not a live store."
 msgstr "演示目录：商品、插画与价格均为示例，尚未正式营业。"
@@ -90,6 +135,12 @@ msgstr "电动船"
 
 msgid "Email address"
 msgstr "电子邮箱"
+
+msgid "Enable JavaScript to chat, or use the detailed inquiry form below."
+msgstr "请启用 JavaScript 开始聊天，或使用下方详细询价表。"
+
+msgid "Enter to send · Shift + Enter for a new line"
+msgstr "Enter 发送 · Shift + Enter 换行"
 
 msgid "Explore"
 msgstr "探索"
@@ -148,6 +199,9 @@ msgstr "高尔夫车"
 msgid "Here to help"
 msgstr "服务支持"
 
+msgid "Human support requested. Replies appear here when available."
+msgstr "已请求人工客服，回复后会显示在这里。"
+
 msgid "I agree to the processing of my inquiry as described in the"
 msgstr "我同意按照以下政策处理我的询价信息："
 
@@ -169,6 +223,9 @@ msgstr "找到你的出行方式"
 msgid "Language"
 msgstr "语言"
 
+msgid "Last activity"
+msgstr "最后活动"
+
 msgid "Leave only a ripple."
 msgstr "只留下一道涟漪。"
 
@@ -183,6 +240,9 @@ msgstr "一起回到正确的方向。"
 
 msgid "Let’s talk"
 msgstr "聊聊你的计划"
+
+msgid "Let’s talk."
+msgstr "聊聊你的想法。"
 
 msgid "MEET YOUR NEXT ADVENTURE"
 msgstr "开启下一段探索"
@@ -202,11 +262,20 @@ msgstr "让出行带电"
 msgid "Menu"
 msgstr "菜单"
 
+msgid "Message saved. Waiting for a team reply."
+msgstr "消息已保存，等待客服回复。"
+
+msgid "Messages may be processed by our configured AI provider."
+msgstr "消息可能由本站接入的智能服务提供商处理。"
+
 msgid "More electric."
 msgstr "为探索充电。"
 
 msgid "My account"
 msgstr "我的账户"
+
+msgid "Needs reply"
+msgstr "待回复"
 
 msgid "Nothing here yet. Try another search."
 msgstr "暂无结果，请尝试其他关键词。"
@@ -235,6 +304,9 @@ msgstr "品牌故事"
 msgid "Please wait before sending another inquiry."
 msgstr "请稍后再提交新的询价。"
 
+msgid "Prefer a detailed quote?"
+msgstr "希望提交详细询价？"
+
 msgid "Price on request"
 msgstr "询价获取价格"
 
@@ -256,6 +328,12 @@ msgstr "仅接受询价"
 msgid "Ready for a different route."
 msgstr "准备好，走一条新的路。"
 
+msgid "Refresh to check for new messages. Replies are shown in the visitor’s open chat tab."
+msgstr "刷新查看新消息。回复将显示在访客打开的聊天标签页。"
+
+msgid "Replied"
+msgstr "已回复"
+
 msgid "Request a quote"
 msgstr "获取报价"
 
@@ -274,8 +352,20 @@ msgstr "选择国家"
 msgid "Send inquiry"
 msgstr "提交询价"
 
+msgid "Send message"
+msgstr "发送消息"
+
+msgid "Send reply"
+msgstr "发送回复"
+
+msgid "Sending…"
+msgstr "发送中…"
+
 msgid "Sent"
 msgstr "已发送"
+
+msgid "Shadowalker team"
+msgstr "Shadowalker 团队"
 
 msgid "Shipping & returns"
 msgstr "配送与退换货"
@@ -286,8 +376,14 @@ msgstr "跳转到正文"
 msgid "Specifications"
 msgstr "规格参数"
 
+msgid "Start a new conversation"
+msgstr "开启新会话"
+
 msgid "Starts with a little spark."
 msgstr "从一点电力开始。"
+
+msgid "Status"
+msgstr "状态"
 
 msgid "THE COLLECTION"
 msgstr "产品系列"
@@ -297,6 +393,9 @@ msgstr "独行者精神"
 
 msgid "Talk to us"
 msgstr "联系我们"
+
+msgid "Team inbox · replies are not instant"
+msgstr "人工消息通道 · 非即时在线客服"
 
 msgid "Technical specifications"
 msgstr "技术规格"
@@ -316,23 +415,62 @@ msgstr "感谢咨询，询价已保存，我们的团队将查看你的需求。
 msgid "The inquiry form is currently unavailable."
 msgstr "询价表单暂时不可用。"
 
+msgid "This conversation has expired. Start a new conversation to continue."
+msgstr "此会话已过期，请开启新会话。"
+
+msgid "This conversation is full. Start a new conversation to continue."
+msgstr "此会话已达到消息上限，请开启新会话。"
+
 msgid "This product requires a quote. Please contact us."
 msgstr "此产品需要单独报价，请联系我们。"
+
+msgid "Too many requests. Please wait a minute and try again."
+msgstr "请求过于频繁，请稍等一分钟再试。"
+
+msgid "Unable to connect. Your draft is kept; please try again."
+msgstr "连接失败，草稿已保留，请重试。"
 
 msgid "View details"
 msgstr "查看详情"
 
+msgid "Visitor"
+msgstr "访客"
+
 msgid "We could not save your inquiry. Please try again."
 msgstr "询价保存失败，请重试。"
+
+msgid "Welcome"
+msgstr "欢迎"
+
+msgid "What would you like to explore? Send a message to start the conversation."
+msgstr "有什么想了解的？发送消息，开始聊聊。"
 
 msgid "Where will you go?"
 msgstr "下一站，你想去哪？"
 
+msgid "Write your message…"
+msgstr "输入消息…"
+
+msgid "You"
+msgstr "你"
+
 msgid "Your bike. A new possibility."
 msgstr "熟悉的单车，全新的可能。"
+
+msgid "Your message"
+msgstr "你的消息"
 
 msgid "Your name"
 msgstr "你的姓名"
 
+msgid "Your next move starts here."
+msgstr "下一段旅程，从对话开始。"
+
+msgid "Your reply"
+msgstr "你的回复"
+
 msgid "Your session expired. Reload the form and try again."
 msgstr "页面会话已过期，请刷新表单后重试。"
+
+msgid "Your session expired. Reload this page; your draft is still here."
+msgstr "页面会话已过期，请复制草稿后刷新页面。"

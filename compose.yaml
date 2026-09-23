@@ -27,9 +27,13 @@ services:
       WORDPRESS_DB_NAME: ${DB_NAME}
       WORDPRESS_DB_USER: ${DB_USER}
       WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      SW_CHAT_BOT_URL: ${SW_CHAT_BOT_URL:-}
+      SW_CHAT_BOT_KEY: ${SW_CHAT_BOT_KEY:-}
       WORDPRESS_CONFIG_EXTRA: |
         define('DISALLOW_FILE_EDIT', true);
         define('WP_ENVIRONMENT_TYPE', 'local');
+        define('SW_CHAT_BOT_URL', getenv('SW_CHAT_BOT_URL') ?: '');
+        define('SW_CHAT_BOT_KEY', getenv('SW_CHAT_BOT_KEY') ?: '');
     volumes: &wp_volumes
       - wp_data:/var/www/html
       - ./wp-content/themes/shadowalker:/var/www/html/wp-content/themes/shadowalker:ro

@@ -25,14 +25,32 @@ msgstr "Un projet qui vous ressemble."
 msgid "A quieter way around."
 msgstr "Se déplacer en douceur."
 
+msgid "A team member has replied."
+msgstr "Un membre de notre équipe a répondu."
+
 msgid "A world to explore."
 msgstr "Un monde à explorer."
+
+msgid "AI assistance enabled"
+msgstr "Assistance IA activée"
+
+msgid "AI assistant"
+msgstr "Assistant IA"
 
 msgid "All products"
 msgstr "Tous les produits"
 
 msgid "An illustrated electric bike beside a lake and rolling hills"
 msgstr "Illustration d’un vélo électrique au bord d’un lac et de collines"
+
+msgid "Ask about a ride, a build, or a destination. No contact form required."
+msgstr "Parlons de votre véhicule, de votre projet ou de votre destination. Aucun formulaire à remplir."
+
+msgid "Ask for a person"
+msgstr "Demander un conseiller"
+
+msgid "Avoid payment details or sensitive information. AI replies, when enabled, are labelled and may be inaccurate; confirm specifications with our team."
+msgstr "Évitez les données de paiement et les informations sensibles. Les réponses IA sont signalées et peuvent être inexactes ; confirmez les caractéristiques avec notre équipe."
 
 msgid "BUILT FOR THE TINKERER"
 msgstr "POUR LES ESPRITS BRICOLEURS"
@@ -49,8 +67,17 @@ msgstr "Nous naissons seuls."
 msgid "Browse the shop"
 msgstr "Voir la boutique"
 
+msgid "CONVERSATIONS"
+msgstr "CONVERSATIONS"
+
 msgid "Change the journey."
 msgstr "Changez le voyage."
+
+msgid "Chat inbox"
+msgstr "Messagerie"
+
+msgid "Chat with Shadowalker"
+msgstr "Discuter avec Shadowalker"
 
 msgid "Check email delivery"
 msgstr "Vérifier l’envoi de l’e-mail"
@@ -67,8 +94,26 @@ msgstr "Gros plan sur la transmission et les composants d’un vélo"
 msgid "Contact & wholesale"
 msgstr "Contact & vente en gros"
 
+msgid "Conversation"
+msgstr "Conversation"
+
+msgid "Conversation access lasts 30 days. Keep this tab for replies; no email is required."
+msgstr "La conversation reste accessible 30 jours. Gardez cet onglet pour les réponses ; aucun e-mail requis."
+
+msgid "Conversation deleted. You can start again."
+msgstr "Conversation supprimée. Vous pouvez recommencer."
+
+msgid "Conversation starters"
+msgstr "Pour commencer"
+
 msgid "Conversion kits"
 msgstr "Kits de conversion"
+
+msgid "Delete conversation"
+msgstr "Supprimer la conversation"
+
+msgid "Delete this conversation and all its messages? This cannot be undone."
+msgstr "Supprimer cette conversation et tous ses messages ? Cette action est irréversible."
 
 msgid "Demo catalog — sample products, illustrations and prices. Not a live store."
 msgstr "Catalogue de démonstration : produits, illustrations et prix fictifs. Boutique non ouverte."
@@ -90,6 +135,12 @@ msgstr "Bateaux électriques"
 
 msgid "Email address"
 msgstr "Adresse e-mail"
+
+msgid "Enable JavaScript to chat, or use the detailed inquiry form below."
+msgstr "Activez JavaScript pour discuter ou utilisez le formulaire détaillé ci-dessous."
+
+msgid "Enter to send · Shift + Enter for a new line"
+msgstr "Entrée pour envoyer · Maj + Entrée pour une nouvelle ligne"
 
 msgid "Explore"
 msgstr "Explorer"
@@ -148,6 +199,9 @@ msgstr "Voiturettes de golf"
 msgid "Here to help"
 msgstr "À votre service"
 
+msgid "Human support requested. Replies appear here when available."
+msgstr "Un conseiller a été demandé. Ses réponses apparaîtront ici."
+
 msgid "I agree to the processing of my inquiry as described in the"
 msgstr "J’accepte le traitement de ma demande conformément à la"
 
@@ -169,6 +223,9 @@ msgstr "TROUVONS VOTRE CHEMIN"
 msgid "Language"
 msgstr "Langue"
 
+msgid "Last activity"
+msgstr "Dernière activité"
+
 msgid "Leave only a ripple."
 msgstr "Ne laisser qu’un sillage."
 
@@ -183,6 +240,9 @@ msgstr "Retrouvons votre chemin."
 
 msgid "Let’s talk"
 msgstr "Parlons-en"
+
+msgid "Let’s talk."
+msgstr "Parlons-en."
 
 msgid "MEET YOUR NEXT ADVENTURE"
 msgstr "VOTRE PROCHAINE AVENTURE"
@@ -202,11 +262,20 @@ msgstr "Passez à l’électrique"
 msgid "Menu"
 msgstr "Menu"
 
+msgid "Message saved. Waiting for a team reply."
+msgstr "Message enregistré. En attente de la réponse de notre équipe."
+
+msgid "Messages may be processed by our configured AI provider."
+msgstr "Les messages peuvent être traités par notre prestataire IA configuré."
+
 msgid "More electric."
 msgstr "Plus électrique."
 
 msgid "My account"
 msgstr "Mon compte"
+
+msgid "Needs reply"
+msgstr "Réponse attendue"
 
 msgid "Nothing here yet. Try another search."
 msgstr "Aucun résultat. Essayez une autre recherche."
@@ -235,6 +304,9 @@ msgstr "Notre histoire"
 msgid "Please wait before sending another inquiry."
 msgstr "Veuillez patienter avant d’envoyer une autre demande."
 
+msgid "Prefer a detailed quote?"
+msgstr "Vous préférez un devis détaillé ?"
+
 msgid "Price on request"
 msgstr "Prix sur demande"
 
@@ -256,6 +328,12 @@ msgstr "Sur devis uniquement"
 msgid "Ready for a different route."
 msgstr "Prêt pour un autre chemin."
 
+msgid "Refresh to check for new messages. Replies are shown in the visitor’s open chat tab."
+msgstr "Actualisez pour consulter les nouveaux messages. Les réponses apparaissent dans l’onglet ouvert du visiteur."
+
+msgid "Replied"
+msgstr "Répondu"
+
 msgid "Request a quote"
 msgstr "Demander un devis"
 
@@ -274,8 +352,20 @@ msgstr "Choisir un pays"
 msgid "Send inquiry"
 msgstr "Envoyer la demande"
 
+msgid "Send message"
+msgstr "Envoyer le message"
+
+msgid "Send reply"
+msgstr "Envoyer la réponse"
+
+msgid "Sending…"
+msgstr "Envoi en cours…"
+
 msgid "Sent"
 msgstr "Envoyée"
+
+msgid "Shadowalker team"
+msgstr "Équipe Shadowalker"
 
 msgid "Shipping & returns"
 msgstr "Livraison & retours"
@@ -286,8 +376,14 @@ msgstr "Aller au contenu"
 msgid "Specifications"
 msgstr "Caractéristiques"
 
+msgid "Start a new conversation"
+msgstr "Nouvelle conversation"
+
 msgid "Starts with a little spark."
 msgstr "Tout commence par une étincelle."
+
+msgid "Status"
+msgstr "Statut"
 
 msgid "THE COLLECTION"
 msgstr "LA COLLECTION"
@@ -297,6 +393,9 @@ msgstr "L’ESPRIT INDÉPENDANT"
 
 msgid "Talk to us"
 msgstr "Contact"
+
+msgid "Team inbox · replies are not instant"
+msgstr "Messagerie de notre équipe · réponse non immédiate"
 
 msgid "Technical specifications"
 msgstr "Caractéristiques techniques"
@@ -316,23 +415,62 @@ msgstr "Merci. Votre demande a été enregistrée. Notre équipe l’examinera."
 msgid "The inquiry form is currently unavailable."
 msgstr "Le formulaire est actuellement indisponible."
 
+msgid "This conversation has expired. Start a new conversation to continue."
+msgstr "Cette conversation a expiré. Commencez-en une nouvelle."
+
+msgid "This conversation is full. Start a new conversation to continue."
+msgstr "Cette conversation est complète. Commencez-en une nouvelle."
+
 msgid "This product requires a quote. Please contact us."
 msgstr "Ce produit nécessite un devis. Contactez-nous."
+
+msgid "Too many requests. Please wait a minute and try again."
+msgstr "Trop de requêtes. Patientez une minute et réessayez."
+
+msgid "Unable to connect. Your draft is kept; please try again."
+msgstr "Connexion impossible. Votre brouillon est conservé ; réessayez."
 
 msgid "View details"
 msgstr "Voir les détails"
 
+msgid "Visitor"
+msgstr "Visiteur"
+
 msgid "We could not save your inquiry. Please try again."
 msgstr "Impossible d’enregistrer votre demande. Veuillez réessayer."
+
+msgid "Welcome"
+msgstr "Bienvenue"
+
+msgid "What would you like to explore? Send a message to start the conversation."
+msgstr "Que souhaitez-vous découvrir ? Envoyez un message pour commencer."
 
 msgid "Where will you go?"
 msgstr "Où irez-vous ?"
 
+msgid "Write your message…"
+msgstr "Écrivez votre message…"
+
+msgid "You"
+msgstr "Vous"
+
 msgid "Your bike. A new possibility."
 msgstr "Votre vélo. Un nouvel élan."
+
+msgid "Your message"
+msgstr "Votre message"
 
 msgid "Your name"
 msgstr "Votre nom"
 
+msgid "Your next move starts here."
+msgstr "Votre prochaine aventure commence ici."
+
+msgid "Your reply"
+msgstr "Votre réponse"
+
 msgid "Your session expired. Reload the form and try again."
 msgstr "Votre session a expiré. Rechargez le formulaire et réessayez."
+
+msgid "Your session expired. Reload this page; your draft is still here."
+msgstr "Votre session a expiré. Copiez votre brouillon puis rechargez la page."

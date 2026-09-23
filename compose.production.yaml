@@ -7,6 +7,8 @@ services:
         define('WP_ENVIRONMENT_TYPE', 'production');
         define('FORCE_SSL_ADMIN', true);
         define('DISABLE_WP_CRON', true);
+        define('SW_CHAT_BOT_URL', getenv('SW_CHAT_BOT_URL') ?: '');
+        define('SW_CHAT_BOT_KEY', getenv('SW_CHAT_BOT_KEY') ?: '');
   cli:
     environment:
       <<: *production_environment

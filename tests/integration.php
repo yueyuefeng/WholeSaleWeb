@@ -29,7 +29,8 @@ try {
     $assert(!$type->public && !$type->publicly_queryable && !$type->show_in_rest, 'inquiries are private and not exposed via REST');
     $assert(!get_role('subscriber')->has_cap($type->cap->edit_posts), 'subscriber cannot browse inquiries');
     $assert(get_role('shop_manager')->has_cap($type->cap->edit_posts), 'shop manager can manage inquiries');
-    $assert(get_page_by_path('contact') && str_contains(get_page_by_path('contact')->post_content, '[shadowalker_inquiry]'), 'contact page uses real inquiry shortcode');
+    $contact = get_page_by_path('contact');
+    $assert($contact && (has_shortcode($contact->post_content, 'shadowalker_chat') || has_shortcode($contact->post_content, 'shadowalker_inquiry')), 'contact page supports chat or preserved legacy inquiry content');
     $assert(count(wc_get_products(['sku' => 'SW-DEMO-KIT', 'limit' => -1])) === 1, 'seeded SKU exists once');
     $assert((string) get_option('blog_public') === '0', 'demo is not indexable');
     foreach (['zh_CN' => '高尔夫车', 'de_DE' => 'Golfcarts', 'fr_FR' => 'Voiturettes de golf', 'es_ES' => 'Carritos de golf'] as $locale => $expected) {

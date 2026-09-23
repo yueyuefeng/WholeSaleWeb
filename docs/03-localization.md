@@ -2,7 +2,7 @@
 
 ## 本版实际能力
 
-默认语言为英语，提供简体中文、德语、法语、西班牙语各 112 条主题/询价文案翻译，源码位于 `translations`，编译产物位于主题 `languages`。这是界面文案，不包含商品、政策、WooCommerce 自身或支付插件的全部内容。
+默认语言为英语，提供简体中文、德语、法语、西班牙语各 158 条主题/询价/聊天文案翻译，源码位于 `translations`，编译产物位于主题 `languages`。这是界面文案，不包含商品、政策、WooCommerce 自身或支付插件的全部内容。各语言联系页选择 Shadowalker Chat 页面模板，机器人收到会话语言后应使用该语言回答。
 
 主题已集成 WPML 语言选择器（仅列出当前页面已有翻译）和 WCML 货币选择器，`wpml-config.xml` 将询价开关同步、技术规格设置为翻译。未安装 WPML 时不显示误导性的语言下拉框。安装相应 WordPress 核心语言包并设置站点语言可验证单一语言的主题翻译（命令示例：`wp language core install zh_CN`，然后 `wp option update WPLANG zh_CN`）。
 

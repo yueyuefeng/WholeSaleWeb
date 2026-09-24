@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+node_modules/
+vendor/
+artifacts/
+backups/
+*.log
+*.sql
+*.zip
+.DS_Store
+wp-config.php
+wp-content/uploads/
+wp-content/cache/

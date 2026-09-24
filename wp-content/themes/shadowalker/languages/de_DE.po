@@ -1,0 +1,764 @@
+msgid ""
+msgstr "Project-Id-Version: Shadowalker 1.0.0\nLanguage: de_DE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "A fleet. A first ride."
+msgstr "Eine Flotte. Die erste Fahrt."
+
+msgid "A little electric. A lot of possibility."
+msgstr "Ein wenig elektrisch. Vieles möglich."
+
+msgid "A little off track"
+msgstr "Vom Weg abgekommen"
+
+msgid "A lone cyclist overlooking a mountain landscape"
+msgstr "Ein einzelner Radfahrer blickt über eine Berglandschaft"
+
+msgid "A new perspective"
+msgstr "Eine neue Perspektive"
+
+msgid "A new way to move."
+msgstr "Eine neue Art der Mobilität."
+
+msgid "A project of your own."
+msgstr "Dein eigenes Projekt."
+
+msgid "A quieter way around."
+msgstr "Leiser unterwegs."
+
+msgid "A team member has replied."
+msgstr "Das Team hat geantwortet."
+
+msgid "A world to explore."
+msgstr "Eine Welt zu entdecken."
+
+msgid "AI assistance enabled"
+msgstr "KI-Unterstützung aktiviert"
+
+msgid "AI assistant"
+msgstr "KI-Assistent"
+
+msgid "Added to comparison"
+msgstr "Zum Vergleich hinzugefügt"
+
+msgid "All products"
+msgstr "Alle Produkte"
+
+msgid "An illustrated electric bike beside a lake and rolling hills"
+msgstr "Illustration eines E-Bikes am See vor sanften Hügeln"
+
+msgid "Ask about a ride, a build, or a destination. No contact form required."
+msgstr "Fragen zu Fahrzeug, Umbau oder Reiseziel? Kein Kontaktformular nötig."
+
+msgid "Ask for a person"
+msgstr "Mit einem Menschen sprechen"
+
+msgid "Avoid payment details or sensitive information. AI replies, when enabled, are labelled and may be inaccurate; confirm specifications with our team."
+msgstr "Keine Zahlungsdaten oder sensiblen Informationen senden. KI-Antworten sind gekennzeichnet und können fehlerhaft sein. Spezifikationen bitte mit unserem Team bestätigen."
+
+msgid "BUILT FOR THE TINKERER"
+msgstr "FÜR TÜFTLER GEMACHT"
+
+msgid "Bag"
+msgstr "Warenkorb"
+
+msgid "Battery energy"
+msgstr "Batterieenergie"
+
+msgid "Bicycle brand"
+msgstr "Fahrradmarke"
+
+msgid "Bicycle model"
+msgstr "Fahrradmodell"
+
+msgid "Born alone. Our shadow, an eternal companion. Walk your own path. Make this life count."
+msgstr "Allein geboren. Unser Schatten, ein ewiger Begleiter. Geh deinen eigenen Weg. Mach dieses Leben zu deinem."
+
+msgid "Born into solitude."
+msgstr "In die Einsamkeit geboren."
+
+msgid "Brake type"
+msgstr "Bremsentyp"
+
+msgid "Browse the shop"
+msgstr "Zum Shop"
+
+msgid "CONVERSATIONS"
+msgstr "IM GESPRÄCH"
+
+msgid "Cannot combine with"
+msgstr "Nicht kombinierbar mit"
+
+msgid "Change the journey."
+msgstr "Verändere deinen Weg."
+
+msgid "Chat inbox"
+msgstr "Chat-Postfach"
+
+msgid "Chat with Shadowalker"
+msgstr "Chat mit Shadowalker"
+
+msgid "Check before choosing"
+msgstr "Vor der Auswahl prüfen"
+
+msgid "Check compatibility"
+msgstr "Kompatibilität prüfen"
+
+msgid "Check email delivery"
+msgstr "E-Mail-Zustellung prüfen"
+
+msgid "Check your name, email, country, quantity, message and privacy consent."
+msgstr "Bitte Name, E-Mail, Land, Menge, Nachricht und Datenschutzeinwilligung prüfen."
+
+msgid "Choose a product"
+msgstr "Produkt auswählen"
+
+msgid "Choose an option"
+msgstr "Option auswählen"
+
+msgid "Choose up to three products from the same category."
+msgstr "Wählen Sie bis zu drei Produkte derselben Kategorie."
+
+msgid "Choose your own pace"
+msgstr "Dein eigenes Tempo"
+
+msgid "Clear draft"
+msgstr "Entwurf löschen"
+
+msgid "Clear selection"
+msgstr "Auswahl löschen"
+
+msgid "Close-up of a bicycle drivetrain and mechanical components"
+msgstr "Nahaufnahme eines Fahrradantriebs und seiner Komponenten"
+
+msgid "Compare products"
+msgstr "Produkte vergleichen"
+
+msgid "Compatibility rules (JSON)"
+msgstr "Kompatibilitätsregeln (JSON)"
+
+msgid "Configuration and delivery are subject to confirmation. This is not an order or a price quote."
+msgstr "Konfiguration und Lieferung bedürfen der Bestätigung. Dies ist weder eine Bestellung noch ein Preisangebot."
+
+msgid "Configuration options are awaiting confirmation. Please talk to our team."
+msgstr "Die Optionen müssen noch bestätigt werden. Sprechen Sie mit unserem Team."
+
+msgid "Configuration rules (JSON)"
+msgstr "Konfigurationsregeln (JSON)"
+
+msgid "Configure your ride"
+msgstr "Ihr Fahrzeug konfigurieren"
+
+msgid "Confirmation needed"
+msgstr "Bestätigung erforderlich"
+
+msgid "Contact & wholesale"
+msgstr "Kontakt & Großhandel"
+
+msgid "Conversation"
+msgstr "Gespräch"
+
+msgid "Conversation access lasts 30 days. Keep this tab for replies; no email is required."
+msgstr "Der Chat bleibt 30 Tage zugänglich. Lass diesen Tab für Antworten offen; keine E-Mail nötig."
+
+msgid "Conversation deleted. You can start again."
+msgstr "Chat gelöscht. Du kannst neu beginnen."
+
+msgid "Conversation starters"
+msgstr "Gesprächseinstieg"
+
+msgid "Conversion kits"
+msgstr "Umrüstsätze"
+
+msgid "Copy plan link"
+msgstr "Link zur Auswahl kopieren"
+
+msgid "Copy this link to share your plan."
+msgstr "Kopieren Sie diesen Link, um Ihre Auswahl zu teilen."
+
+msgid "Create a new plan"
+msgstr "Neue Planung erstellen"
+
+msgid "Data source / version"
+msgstr "Datenquelle / Version"
+
+msgid "Data version"
+msgstr "Datenversion"
+
+msgid "Delete conversation"
+msgstr "Chat löschen"
+
+msgid "Delete this conversation and all its messages? This cannot be undone."
+msgstr "Diesen Chat und alle Nachrichten unwiderruflich löschen?"
+
+msgid "Delivery information"
+msgstr "Lieferinformationen"
+
+msgid "Demo catalog — sample products, illustrations and prices. Not a live store."
+msgstr "Demokatalog – Beispielprodukte, Illustrationen und Preise. Kein aktiver Shop."
+
+msgid "Designed for"
+msgstr "Einsatzbereiche"
+
+msgid "Destination country"
+msgstr "Zielland"
+
+msgid "Different specification"
+msgstr "Abweichende Spezifikation"
+
+msgid "Disable online purchase for this product and its variations."
+msgstr "Onlinekauf für dieses Produkt und seine Varianten deaktivieren."
+
+msgid "Disc brake"
+msgstr "Scheibenbremse"
+
+msgid "Discover what moves you"
+msgstr "Entdecke, was dich bewegt"
+
+msgid "Discuss this plan"
+msgstr "Diese Auswahl besprechen"
+
+msgid "Download summary"
+msgstr "Zusammenfassung herunterladen"
+
+msgid "Draft"
+msgstr "Tiefgang"
+
+msgid "Dropout spacing"
+msgstr "Einbaubreite"
+
+msgid "Electric bikes"
+msgstr "E-Bikes"
+
+msgid "Electric boats"
+msgstr "Elektroboote"
+
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+msgid "Enable JavaScript to chat, or use the detailed inquiry form below."
+msgstr "Aktiviere JavaScript für den Chat oder nutze das Anfrageformular unten."
+
+msgid "Enable JavaScript to save a plan, or contact our team."
+msgstr "Aktivieren Sie JavaScript zum Speichern oder kontaktieren Sie unser Team."
+
+msgid "Enter to send · Shift + Enter for a new line"
+msgstr "Enter zum Senden · Shift + Enter für neue Zeile"
+
+msgid "Explore"
+msgstr "Entdecken"
+
+msgid "Explore conversion kits"
+msgstr "Umrüstsätze entdecken"
+
+msgid "Explore electric bikes"
+msgstr "E-Bikes entdecken"
+
+msgid "Explore products"
+msgstr "Produkte entdecken"
+
+msgid "Explore the collection"
+msgstr "Kollektion entdecken"
+
+msgid "Explore your possibilities"
+msgstr "Möglichkeiten entdecken"
+
+msgid "FOUR WAYS TO GO FURTHER"
+msgstr "VIER WEGE, WEITERZUKOMMEN"
+
+msgid "Face every trial. Forge ahead. Make this life count."
+msgstr "Allen Widrigkeiten trotzen. Mutig vorangehen. Ein erfülltes Leben führen."
+
+msgid "Field notes"
+msgstr "Unterwegs"
+
+msgid "Find your next ride"
+msgstr "Finde dein nächstes Fahrzeug"
+
+msgid "Find your next way to move"
+msgstr "Entdecke deinen nächsten Weg"
+
+msgid "Find your ride"
+msgstr "Finde dein Fahrzeug"
+
+msgid "Footer navigation"
+msgstr "Fußnavigation"
+
+msgid "Four ways. Your way."
+msgstr "Vier Wege. Dein Weg."
+
+msgid "From the morning commute to the open water. Discover a new way to move, explore, and make it your own."
+msgstr "Vom Arbeitsweg bis aufs offene Wasser. Entdecke eine neue Art, unterwegs zu sein – auf deine Weise."
+
+msgid "Front wheel"
+msgstr "Vorderrad"
+
+msgid "Give a familiar ride a fresh start. Explore motors, batteries, controllers, and conversion kits. We can help you check compatibility before you choose."
+msgstr "Gib deinem Rad einen neuen Antrieb. Entdecke Motoren, Akkus, Steuerungen und Umrüstsätze. Wir helfen dir vor dem Kauf bei der Kompatibilitätsprüfung."
+
+msgid "Go your own way."
+msgstr "Geh deinen eigenen Weg."
+
+msgid "Golf carts"
+msgstr "Golfcarts"
+
+msgid "Here to help"
+msgstr "Service"
+
+msgid "Highlights"
+msgstr "Besonderheiten"
+
+msgid "How to check your bicycle"
+msgstr "So prüfen Sie Ihr Fahrrad"
+
+msgid "Human support requested. Replies appear here when available."
+msgstr "Persönliche Betreuung angefragt. Antworten erscheinen hier, sobald sie vorliegen."
+
+msgid "I agree to the processing of my inquiry as described in the"
+msgstr "Ich stimme der Verarbeitung meiner Anfrage gemäß folgender Richtlinie zu:"
+
+msgid "I do not know"
+msgstr "Weiß ich nicht"
+
+msgid "Illustrated electric bicycle conversion components"
+msgstr "Illustrierte Komponenten zur E-Bike-Umrüstung"
+
+msgid "Included in the box"
+msgstr "Lieferumfang"
+
+msgid "Included in your selection"
+msgstr "In Ihrer Auswahl enthalten"
+
+msgid "Initial match"
+msgstr "Vorläufig passend"
+
+msgid "Inquiries"
+msgstr "Anfragen"
+
+msgid "Inquiry"
+msgstr "Anfrage"
+
+msgid "Keep the bike."
+msgstr "Behalte dein Rad."
+
+msgid "LET’S FIND YOUR WAY"
+msgstr "FINDEN WIR DEINEN WEG"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "Last activity"
+msgstr "Letzte Aktivität"
+
+msgid "Leave only a ripple."
+msgstr "Nur Wellen hinterlassen."
+
+msgid "Length"
+msgstr "Länge"
+
+msgid "Less ordinary."
+msgstr "Weniger gewöhnlich."
+
+msgid "Let’s discuss your configuration, destination and delivery requirements."
+msgstr "Besprechen wir deine Konfiguration, dein Lieferziel und deine Anforderungen."
+
+msgid "Let’s find your way back."
+msgstr "Finden wir zurück."
+
+msgid "Let’s talk"
+msgstr "Sprechen wir darüber"
+
+msgid "Let’s talk."
+msgstr "Lass uns reden."
+
+msgid "Link copied"
+msgstr "Link kopiert"
+
+msgid "MEET YOUR NEXT ADVENTURE"
+msgstr "DEIN NÄCHSTES ABENTEUER"
+
+msgid "MOVE DIFFERENTLY"
+msgstr "ANDERS UNTERWEGS"
+
+msgid "Main navigation"
+msgstr "Hauptnavigation"
+
+msgid "Make every day a detour."
+msgstr "Jeden Tag Neues entdecken."
+
+msgid "Make it electric"
+msgstr "Elektrisch unterwegs"
+
+msgid "Maximum rider height"
+msgstr "Maximale Körpergröße"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Message saved. Waiting for a team reply."
+msgstr "Nachricht gespeichert. Wir warten auf eine Antwort des Teams."
+
+msgid "Messages may be processed by our configured AI provider."
+msgstr "Nachrichten können von unserem konfigurierten KI-Anbieter verarbeitet werden."
+
+msgid "Mid-drive"
+msgstr "Mittelmotor"
+
+msgid "Minimum rider height"
+msgstr "Minimale Körpergröße"
+
+msgid "More electric."
+msgstr "Mehr elektrisch."
+
+msgid "Motor position"
+msgstr "Motorposition"
+
+msgid "My account"
+msgstr "Mein Konto"
+
+msgid "Needs expert review"
+msgstr "Fachliche Prüfung erforderlich"
+
+msgid "Needs reply"
+msgstr "Antwort ausstehend"
+
+msgid "No differences in the displayed specifications."
+msgstr "Keine Unterschiede in den angezeigten Spezifikationen."
+
+msgid "No matching products in this list."
+msgstr "Keine passenden Produkte in dieser Liste."
+
+msgid "Not a match"
+msgstr "Nicht passend"
+
+msgid "Nothing here yet. Try another search."
+msgstr "Keine Ergebnisse. Versuche eine andere Suche."
+
+msgid "Notification"
+msgstr "Benachrichtigung"
+
+msgid "On land. On water."
+msgstr "An Land. Auf dem Wasser."
+
+msgid "On your terms."
+msgstr "Auf deine Weise."
+
+msgid "One per line: label | value. Confirm all specifications before publishing."
+msgstr "Eine Angabe pro Zeile: Bezeichnung | Wert. Vor Veröffentlichung prüfen."
+
+msgid "Only mark reviewed after checking source, specifications and compatibility rules. Demo products remain unverified."
+msgstr "Erst nach Prüfung von Quelle, Daten und Kompatibilitätsregeln bestätigen. Demoprodukte bleiben ungeprüft."
+
+msgid "Only our shadow stays forever."
+msgstr "Nur unser Schatten bleibt für immer."
+
+msgid "Open saved plan"
+msgstr "Gespeicherte Auswahl öffnen"
+
+msgid "Our collection is getting ready. Contact us to find your next ride."
+msgstr "Unsere Kollektion entsteht. Kontaktiere uns für dein nächstes Fahrzeug."
+
+msgid "Our story"
+msgstr "Unsere Geschichte"
+
+msgid "Payload"
+msgstr "Zuladung"
+
+msgid "Plan reference"
+msgstr "Referenz der Auswahl"
+
+msgid "Plan saved"
+msgstr "Auswahl gespeichert"
+
+msgid "Please wait before sending another inquiry."
+msgstr "Bitte warte, bevor du eine weitere Anfrage sendest."
+
+msgid "Prefer a detailed quote?"
+msgstr "Lieber ein ausführliches Angebot?"
+
+msgid "Price on request"
+msgstr "Preis auf Anfrage"
+
+msgid "Privacy"
+msgstr "Datenschutz"
+
+msgid "Privacy policy"
+msgstr "Datenschutzerklärung"
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "Product data has changed. Please reconfirm this plan with our team."
+msgstr "Die Produktdaten haben sich geändert. Bitte bestätigen Sie diese Auswahl erneut mit unserem Team."
+
+msgid "Product details"
+msgstr "Produktdetails"
+
+msgid "Product family"
+msgstr "Produktkategorie"
+
+msgid "Product selection data"
+msgstr "Auswahldaten und Regeln"
+
+msgid "Published source"
+msgstr "Datenquelle"
+
+msgid "Quantity"
+msgstr "Menge"
+
+msgid "Quote only"
+msgstr "Nur auf Anfrage"
+
+msgid "Rated motor power"
+msgstr "Motornennleistung"
+
+msgid "Read wheel size on the tyre. Measure dropout spacing between the inner faces of the fork or frame where the axle sits, not the outside width. Read voltage from the battery label. If unsure, leave the field blank and ask our team."
+msgstr "Lesen Sie die Reifengröße am Reifen ab. Messen Sie die Einbaubreite zwischen den inneren Flächen von Gabel oder Rahmen an der Achsaufnahme, nicht außen. Die Spannung steht auf dem Akku. Lassen Sie unsichere Angaben leer und fragen Sie unser Team."
+
+msgid "Ready for a different route."
+msgstr "Bereit für einen neuen Weg."
+
+msgid "Rear wheel"
+msgstr "Hinterrad"
+
+msgid "Refresh to check for new messages. Replies are shown in the visitor’s open chat tab."
+msgstr "Aktualisieren, um neue Nachrichten zu sehen. Antworten erscheinen im offenen Chat-Tab des Besuchers."
+
+msgid "Removed from comparison"
+msgstr "Aus dem Vergleich entfernt"
+
+msgid "Replied"
+msgstr "Beantwortet"
+
+msgid "Request a quote"
+msgstr "Angebot anfragen"
+
+msgid "Requires"
+msgstr "Erfordert"
+
+msgid "Reviewed product data"
+msgstr "Geprüfte Produktdaten"
+
+msgid "Rim brake"
+msgstr "Felgenbremse"
+
+msgid "SAME BIKE. NEW ENERGY."
+msgstr "GLEICHES RAD. NEUE ENERGIE."
+
+msgid "Save and review plan"
+msgstr "Auswahl speichern und prüfen"
+
+msgid "Saving…"
+msgstr "Wird gespeichert…"
+
+msgid "Scenes for inspiration. Explore each product for its actual configuration."
+msgstr "Szenen zur Inspiration. Die tatsächliche Ausstattung findest du beim jeweiligen Produkt."
+
+msgid "Scroll sideways to compare all products."
+msgstr "Seitlich scrollen, um alle Produkte zu vergleichen."
+
+msgid "Search results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+msgid "Search this product list"
+msgstr "Diese Produktliste durchsuchen"
+
+msgid "Seats"
+msgstr "Sitzplätze"
+
+msgid "See the selection tools manual for the schema. Leave empty to require manual confirmation."
+msgstr "Das Schema steht im Handbuch. Leer lassen, um eine manuelle Prüfung zu verlangen."
+
+msgid "Select a product"
+msgstr "Produkt wählen"
+
+msgid "Select country"
+msgstr "Land auswählen"
+
+msgid "Select two or three different products from the same category."
+msgstr "Wählen Sie zwei oder drei verschiedene Produkte derselben Kategorie."
+
+msgid "Selection data was not saved. Check numbers, source/version and JSON rules; previous data is preserved."
+msgstr "Auswahldaten nicht gespeichert. Prüfen Sie Zahlen, Quelle/Version und JSON-Regeln. Bisherige Daten bleiben erhalten."
+
+msgid "Selection studio"
+msgstr "Auswahlstudio"
+
+msgid "Send inquiry"
+msgstr "Anfrage senden"
+
+msgid "Send message"
+msgstr "Nachricht senden"
+
+msgid "Send reply"
+msgstr "Antwort senden"
+
+msgid "Sending…"
+msgstr "Wird gesendet…"
+
+msgid "Sent"
+msgstr "Gesendet"
+
+msgid "Shadowalker team"
+msgstr "Shadowalker-Team"
+
+msgid "Shipping & returns"
+msgstr "Versand & Rückgabe"
+
+msgid "Show differences only"
+msgstr "Nur Unterschiede anzeigen"
+
+msgid "Skip to content"
+msgstr "Zum Inhalt"
+
+msgid "Specifications"
+msgstr "Technische Daten"
+
+msgid "Start a new conversation"
+msgstr "Neuen Chat starten"
+
+msgid "Starts with a little spark."
+msgstr "Beginnt mit einem kleinen Funken."
+
+msgid "Status"
+msgstr "Status"
+
+msgid "System voltage"
+msgstr "Systemspannung"
+
+msgid "THE COLLECTION"
+msgstr "DIE KOLLEKTION"
+
+msgid "THE INDEPENDENT SPIRIT"
+msgstr "DER UNABHÄNGIGE GEIST"
+
+msgid "Talk to us"
+msgstr "Kontakt"
+
+msgid "Team inbox · replies are not instant"
+msgstr "Team-Postfach · keine sofortige Antwort"
+
+msgid "Technical specifications"
+msgstr "Technische Daten"
+
+msgid "Tell us about your project"
+msgstr "Erzähle uns von deinem Projekt"
+
+msgid "Tell us what you have in mind. We’ll help you explore the options."
+msgstr "Erzähle uns von deinen Plänen. Gemeinsam finden wir passende Möglichkeiten."
+
+msgid "Terms"
+msgstr "AGB"
+
+msgid "Test conditions"
+msgstr "Testbedingungen"
+
+msgid "Tested range"
+msgstr "Getestete Reichweite"
+
+msgid "Thank you. Your inquiry has been saved. Our team will review it."
+msgstr "Danke. Deine Anfrage wurde gespeichert und wird von unserem Team geprüft."
+
+msgid "The inquiry form is currently unavailable."
+msgstr "Das Anfrageformular ist derzeit nicht verfügbar."
+
+msgid "These options cannot be combined. Check the configuration rules below."
+msgstr "Diese Optionen sind nicht kombinierbar. Prüfen Sie die untenstehenden Regeln."
+
+msgid "This conversation has expired. Start a new conversation to continue."
+msgstr "Dieser Chat ist abgelaufen. Starte einen neuen Chat."
+
+msgid "This conversation is full. Start a new conversation to continue."
+msgstr "Dieser Chat ist voll. Starte einen neuen Chat."
+
+msgid "This is an initial screening, not installation approval. Frame, fork, connectors and installation still need checking."
+msgstr "Dies ist eine Vorprüfung, keine Montagefreigabe. Rahmen, Gabel, Anschlüsse und Montage müssen noch geprüft werden."
+
+msgid "This link shares your product selection for 30 days. It does not share your conversation."
+msgstr "Dieser Link teilt Ihre Produktauswahl für 30 Tage, jedoch nicht Ihren Chat."
+
+msgid "This plan is unavailable or has expired. Please create a new plan."
+msgstr "Diese Auswahl ist nicht verfügbar oder abgelaufen. Bitte erstellen Sie eine neue."
+
+msgid "This product requires a quote. Please contact us."
+msgstr "Für dieses Produkt ist ein Angebot erforderlich. Bitte kontaktiere uns."
+
+msgid "To be confirmed"
+msgstr "Noch zu bestätigen"
+
+msgid "Too many requests. Please wait a minute and try again."
+msgstr "Zu viele Anfragen. Bitte eine Minute warten und erneut versuchen."
+
+msgid "Unable to connect. Your draft is kept; please try again."
+msgstr "Verbindung fehlgeschlagen. Dein Entwurf bleibt erhalten. Bitte erneut versuchen."
+
+msgid "Unable to save. Check your entries and try again."
+msgstr "Speichern fehlgeschlagen. Prüfen Sie Ihre Eingaben und versuchen Sie es erneut."
+
+msgid "Unverified or demonstration data. Our team must confirm the details."
+msgstr "Ungeprüfte Daten oder Demodaten. Unser Team muss die Details bestätigen."
+
+msgid "View details"
+msgstr "Details ansehen"
+
+msgid "Visitor"
+msgstr "Besucher"
+
+msgid "Warranty and support"
+msgstr "Garantie und Support"
+
+msgid "We could not save your inquiry. Please try again."
+msgstr "Deine Anfrage konnte nicht gespeichert werden. Bitte versuche es erneut."
+
+msgid "Weight"
+msgstr "Gewicht"
+
+msgid "Welcome"
+msgstr "Willkommen"
+
+msgid "What would you like to explore? Send a message to start the conversation."
+msgstr "Was möchtest du entdecken? Sende eine Nachricht, um loszulegen."
+
+msgid "Wheel size"
+msgstr "Radgröße"
+
+msgid "Where will you go?"
+msgstr "Wohin geht es für dich?"
+
+msgid "Write your message…"
+msgstr "Nachricht schreiben…"
+
+msgid "You"
+msgstr "Du"
+
+msgid "Your bike. A new possibility."
+msgstr "Dein Rad. Neue Möglichkeiten."
+
+msgid "Your draft has been restored in this tab."
+msgstr "Ihr Entwurf wurde in diesem Tab wiederhergestellt."
+
+msgid "Your draft stays in this tab for up to 24 hours."
+msgstr "Ihr Entwurf bleibt bis zu 24 Stunden in diesem Tab gespeichert."
+
+msgid "Your message"
+msgstr "Deine Nachricht"
+
+msgid "Your name"
+msgstr "Dein Name"
+
+msgid "Your next move starts here."
+msgstr "Dein nächster Schritt beginnt hier."
+
+msgid "Your reply"
+msgstr "Deine Antwort"
+
+msgid "Your selection has changed. Save again before discussing this plan."
+msgstr "Ihre Auswahl wurde geändert. Speichern Sie sie erneut, bevor Sie sie besprechen."
+
+msgid "Your selection is shared with our team"
+msgstr "Ihre Auswahl wird mit unserem Team geteilt"
+
+msgid "Your session expired. Reload the form and try again."
+msgstr "Deine Sitzung ist abgelaufen. Bitte lade das Formular neu."
+
+msgid "Your session expired. Reload this page; your draft is still here."
+msgstr "Deine Sitzung ist abgelaufen. Kopiere deinen Entwurf und lade die Seite neu."

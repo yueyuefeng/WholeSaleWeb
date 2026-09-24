@@ -1,0 +1,764 @@
+msgid ""
+msgstr "Project-Id-Version: Shadowalker 1.0.0\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "A fleet. A first ride."
+msgstr "一支车队，一次初体验。"
+
+msgid "A little electric. A lot of possibility."
+msgstr "一点电力，无限可能。"
+
+msgid "A little off track"
+msgstr "似乎偏离了路线"
+
+msgid "A lone cyclist overlooking a mountain landscape"
+msgstr "独行骑者远眺山野的实拍照片"
+
+msgid "A new perspective"
+msgstr "换个角度看世界"
+
+msgid "A new way to move."
+msgstr "一种全新的出行方式。"
+
+msgid "A project of your own."
+msgstr "或一个属于你的改装计划。"
+
+msgid "A quieter way around."
+msgstr "安静出行，轻松抵达。"
+
+msgid "A team member has replied."
+msgstr "客服已回复。"
+
+msgid "A world to explore."
+msgstr "一个值得探索的世界。"
+
+msgid "AI assistance enabled"
+msgstr "智能助手已接入"
+
+msgid "AI assistant"
+msgstr "智能助手"
+
+msgid "Added to comparison"
+msgstr "已加入对比"
+
+msgid "All products"
+msgstr "全部产品"
+
+msgid "An illustrated electric bike beside a lake and rolling hills"
+msgstr "湖畔与群山前的电动自行车插画"
+
+msgid "Ask about a ride, a build, or a destination. No contact form required."
+msgstr "聊聊车型、改装方案或目的地，无需先填联系表。"
+
+msgid "Ask for a person"
+msgstr "转人工客服"
+
+msgid "Avoid payment details or sensitive information. AI replies, when enabled, are labelled and may be inaccurate; confirm specifications with our team."
+msgstr "请勿发送支付资料或敏感信息。启用后的智能回复会明确标注，内容可能不准确；产品规格请与客服确认。"
+
+msgid "BUILT FOR THE TINKERER"
+msgstr "为动手创造者而生"
+
+msgid "Bag"
+msgstr "购物袋"
+
+msgid "Battery energy"
+msgstr "电池能量"
+
+msgid "Bicycle brand"
+msgstr "自行车品牌"
+
+msgid "Bicycle model"
+msgstr "自行车型号"
+
+msgid "Born alone. Our shadow, an eternal companion. Walk your own path. Make this life count."
+msgstr "人生来孤独，唯有影为永恒伴侣，行者心态不虚此生。"
+
+msgid "Born into solitude."
+msgstr "人生来孤独，"
+
+msgid "Brake type"
+msgstr "制动类型"
+
+msgid "Browse the shop"
+msgstr "浏览商城"
+
+msgid "CONVERSATIONS"
+msgstr "沟通联系"
+
+msgid "Cannot combine with"
+msgstr "不能同时选择"
+
+msgid "Change the journey."
+msgstr "改变每段旅程。"
+
+msgid "Chat inbox"
+msgstr "聊天收件箱"
+
+msgid "Chat with Shadowalker"
+msgstr "与 Shadowalker 对话"
+
+msgid "Check before choosing"
+msgstr "选购前须确认"
+
+msgid "Check compatibility"
+msgstr "检查兼容性"
+
+msgid "Check email delivery"
+msgstr "请检查邮件投递"
+
+msgid "Check your name, email, country, quantity, message and privacy consent."
+msgstr "请检查姓名、邮箱、国家、数量、留言和隐私同意选项。"
+
+msgid "Choose a product"
+msgstr "选择商品"
+
+msgid "Choose an option"
+msgstr "选择配置"
+
+msgid "Choose up to three products from the same category."
+msgstr "请选择同一品类的最多三款商品。"
+
+msgid "Choose your own pace"
+msgstr "找到自己的节奏"
+
+msgid "Clear draft"
+msgstr "清空草稿"
+
+msgid "Clear selection"
+msgstr "清空选择"
+
+msgid "Close-up of a bicycle drivetrain and mechanical components"
+msgstr "自行车传动与机械零件的实拍特写"
+
+msgid "Compare products"
+msgstr "商品对比"
+
+msgid "Compatibility rules (JSON)"
+msgstr "兼容规则（JSON）"
+
+msgid "Configuration and delivery are subject to confirmation. This is not an order or a price quote."
+msgstr "配置及交付需另行确认。本方案不构成订单或报价。"
+
+msgid "Configuration options are awaiting confirmation. Please talk to our team."
+msgstr "配置选项尚待确认，请与我们沟通。"
+
+msgid "Configuration rules (JSON)"
+msgstr "配置规则（JSON）"
+
+msgid "Configure your ride"
+msgstr "定制出行方案"
+
+msgid "Confirmation needed"
+msgstr "需要确认"
+
+msgid "Contact & wholesale"
+msgstr "联系与批发合作"
+
+msgid "Conversation"
+msgstr "会话记录"
+
+msgid "Conversation access lasts 30 days. Keep this tab for replies; no email is required."
+msgstr "会话有效期为 30 天。请保留此标签页接收回复，无需邮箱。"
+
+msgid "Conversation deleted. You can start again."
+msgstr "会话已删除，可以重新开始。"
+
+msgid "Conversation starters"
+msgstr "选择话题"
+
+msgid "Conversion kits"
+msgstr "电动改装套件"
+
+msgid "Copy plan link"
+msgstr "复制方案链接"
+
+msgid "Copy this link to share your plan."
+msgstr "复制此链接即可分享方案。"
+
+msgid "Create a new plan"
+msgstr "创建新方案"
+
+msgid "Data source / version"
+msgstr "资料来源 / 版本"
+
+msgid "Data version"
+msgstr "资料版本"
+
+msgid "Delete conversation"
+msgstr "删除会话"
+
+msgid "Delete this conversation and all its messages? This cannot be undone."
+msgstr "删除此会话及全部消息？此操作无法撤销。"
+
+msgid "Delivery information"
+msgstr "交付信息"
+
+msgid "Demo catalog — sample products, illustrations and prices. Not a live store."
+msgstr "演示目录：商品、插画与价格均为示例，尚未正式营业。"
+
+msgid "Designed for"
+msgstr "适用场景"
+
+msgid "Destination country"
+msgstr "目的地国家"
+
+msgid "Different specification"
+msgstr "规格不符"
+
+msgid "Disable online purchase for this product and its variations."
+msgstr "关闭此商品及其变体的在线购买。"
+
+msgid "Disc brake"
+msgstr "碟刹"
+
+msgid "Discover what moves you"
+msgstr "探索出行的意义"
+
+msgid "Discuss this plan"
+msgstr "带方案进入聊天"
+
+msgid "Download summary"
+msgstr "下载方案摘要"
+
+msgid "Draft"
+msgstr "吃水深度"
+
+msgid "Dropout spacing"
+msgstr "开档宽度"
+
+msgid "Electric bikes"
+msgstr "电动自行车"
+
+msgid "Electric boats"
+msgstr "电动船"
+
+msgid "Email address"
+msgstr "电子邮箱"
+
+msgid "Enable JavaScript to chat, or use the detailed inquiry form below."
+msgstr "请启用 JavaScript 开始聊天，或使用下方详细询价表。"
+
+msgid "Enable JavaScript to save a plan, or contact our team."
+msgstr "请启用 JavaScript 保存方案，或直接联系我们。"
+
+msgid "Enter to send · Shift + Enter for a new line"
+msgstr "Enter 发送 · Shift + Enter 换行"
+
+msgid "Explore"
+msgstr "探索"
+
+msgid "Explore conversion kits"
+msgstr "探索改装套件"
+
+msgid "Explore electric bikes"
+msgstr "探索电动自行车"
+
+msgid "Explore products"
+msgstr "探索产品"
+
+msgid "Explore the collection"
+msgstr "探索产品系列"
+
+msgid "Explore your possibilities"
+msgstr "探索更多可能"
+
+msgid "FOUR WAYS TO GO FURTHER"
+msgstr "四种方式，探索更远"
+
+msgid "Face every trial. Forge ahead. Make this life count."
+msgstr "行者心态不虚此生。"
+
+msgid "Field notes"
+msgstr "出行手记"
+
+msgid "Find your next ride"
+msgstr "寻找你的下一辆座驾"
+
+msgid "Find your next way to move"
+msgstr "探索你的下一种出行方式"
+
+msgid "Find your ride"
+msgstr "寻找你的座驾"
+
+msgid "Footer navigation"
+msgstr "页脚导航"
+
+msgid "Four ways. Your way."
+msgstr "四种路径，自成一派。"
+
+msgid "From the morning commute to the open water. Discover a new way to move, explore, and make it your own."
+msgstr "从清晨通勤，到开阔水面。探索新的出行方式，让每段旅程都属于自己。"
+
+msgid "Front wheel"
+msgstr "前轮"
+
+msgid "Give a familiar ride a fresh start. Explore motors, batteries, controllers, and conversion kits. We can help you check compatibility before you choose."
+msgstr "为熟悉的单车注入新动力。探索电机、电池、控制器与改装套件，购买前可联系我们确认兼容性。"
+
+msgid "Go your own way."
+msgstr "走自己的路。"
+
+msgid "Golf carts"
+msgstr "高尔夫车"
+
+msgid "Here to help"
+msgstr "服务支持"
+
+msgid "Highlights"
+msgstr "产品亮点"
+
+msgid "How to check your bicycle"
+msgstr "如何检查自行车"
+
+msgid "Human support requested. Replies appear here when available."
+msgstr "已请求人工客服，回复后会显示在这里。"
+
+msgid "I agree to the processing of my inquiry as described in the"
+msgstr "我同意按照以下政策处理我的询价信息："
+
+msgid "I do not know"
+msgstr "暂不确定"
+
+msgid "Illustrated electric bicycle conversion components"
+msgstr "自行车电动改装配件插画"
+
+msgid "Included in the box"
+msgstr "包装清单"
+
+msgid "Included in your selection"
+msgstr "此配置包含"
+
+msgid "Initial match"
+msgstr "初步匹配"
+
+msgid "Inquiries"
+msgstr "客户询价"
+
+msgid "Inquiry"
+msgstr "询价"
+
+msgid "Keep the bike."
+msgstr "留下你的单车。"
+
+msgid "LET’S FIND YOUR WAY"
+msgstr "找到你的出行方式"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Last activity"
+msgstr "最后活动"
+
+msgid "Leave only a ripple."
+msgstr "只留下一道涟漪。"
+
+msgid "Length"
+msgstr "船长"
+
+msgid "Less ordinary."
+msgstr "不止于日常。"
+
+msgid "Let’s discuss your configuration, destination and delivery requirements."
+msgstr "告诉我们你需要的配置、目的地和交付要求。"
+
+msgid "Let’s find your way back."
+msgstr "一起回到正确的方向。"
+
+msgid "Let’s talk"
+msgstr "聊聊你的计划"
+
+msgid "Let’s talk."
+msgstr "聊聊你的想法。"
+
+msgid "Link copied"
+msgstr "链接已复制"
+
+msgid "MEET YOUR NEXT ADVENTURE"
+msgstr "开启下一段探索"
+
+msgid "MOVE DIFFERENTLY"
+msgstr "换一种方式出发"
+
+msgid "Main navigation"
+msgstr "主导航"
+
+msgid "Make every day a detour."
+msgstr "让日常多一段探索。"
+
+msgid "Make it electric"
+msgstr "让出行带电"
+
+msgid "Maximum rider height"
+msgstr "骑行者最大身高"
+
+msgid "Menu"
+msgstr "菜单"
+
+msgid "Message saved. Waiting for a team reply."
+msgstr "消息已保存，等待客服回复。"
+
+msgid "Messages may be processed by our configured AI provider."
+msgstr "消息可能由本站接入的智能服务提供商处理。"
+
+msgid "Mid-drive"
+msgstr "中置电机"
+
+msgid "Minimum rider height"
+msgstr "骑行者最小身高"
+
+msgid "More electric."
+msgstr "为探索充电。"
+
+msgid "Motor position"
+msgstr "电机安装位置"
+
+msgid "My account"
+msgstr "我的账户"
+
+msgid "Needs expert review"
+msgstr "需人工确认"
+
+msgid "Needs reply"
+msgstr "待回复"
+
+msgid "No differences in the displayed specifications."
+msgstr "当前展示的参数没有差异。"
+
+msgid "No matching products in this list."
+msgstr "此列表中没有匹配的商品。"
+
+msgid "Not a match"
+msgstr "规格不匹配"
+
+msgid "Nothing here yet. Try another search."
+msgstr "暂无结果，请尝试其他关键词。"
+
+msgid "Notification"
+msgstr "通知状态"
+
+msgid "On land. On water."
+msgstr "陆地之上，水面之间。"
+
+msgid "On your terms."
+msgstr "由你定义。"
+
+msgid "One per line: label | value. Confirm all specifications before publishing."
+msgstr "每行一项：参数名 | 参数值。发布前请核实所有参数。"
+
+msgid "Only mark reviewed after checking source, specifications and compatibility rules. Demo products remain unverified."
+msgstr "核对资料来源、参数和兼容规则后才能标为已审核。演示商品始终视为未审核。"
+
+msgid "Only our shadow stays forever."
+msgstr "唯有影为永恒伴侣，"
+
+msgid "Open saved plan"
+msgstr "打开已保存方案"
+
+msgid "Our collection is getting ready. Contact us to find your next ride."
+msgstr "产品系列正在准备中，欢迎联系我们了解更多。"
+
+msgid "Our story"
+msgstr "品牌故事"
+
+msgid "Payload"
+msgstr "额定载荷"
+
+msgid "Plan reference"
+msgstr "方案编号"
+
+msgid "Plan saved"
+msgstr "方案已保存"
+
+msgid "Please wait before sending another inquiry."
+msgstr "请稍后再提交新的询价。"
+
+msgid "Prefer a detailed quote?"
+msgstr "希望提交详细询价？"
+
+msgid "Price on request"
+msgstr "询价获取价格"
+
+msgid "Privacy"
+msgstr "隐私政策"
+
+msgid "Privacy policy"
+msgstr "隐私政策"
+
+msgid "Product"
+msgstr "产品"
+
+msgid "Product data has changed. Please reconfirm this plan with our team."
+msgstr "产品资料已更新，请与我们重新确认此方案。"
+
+msgid "Product details"
+msgstr "产品详情"
+
+msgid "Product family"
+msgstr "产品品类"
+
+msgid "Product selection data"
+msgstr "选购参数与规则"
+
+msgid "Published source"
+msgstr "资料来源"
+
+msgid "Quantity"
+msgstr "数量"
+
+msgid "Quote only"
+msgstr "仅接受询价"
+
+msgid "Rated motor power"
+msgstr "电机额定功率"
+
+msgid "Read wheel size on the tyre. Measure dropout spacing between the inner faces of the fork or frame where the axle sits, not the outside width. Read voltage from the battery label. If unsure, leave the field blank and ask our team."
+msgstr "轮径请查看轮胎标识；开档宽度是车轴安装处前叉或车架两侧内表面的距离，并非外侧总宽。电压请查看电池标签。不确定的项目请留空，由我们协助确认。"
+
+msgid "Ready for a different route."
+msgstr "准备好，走一条新的路。"
+
+msgid "Rear wheel"
+msgstr "后轮"
+
+msgid "Refresh to check for new messages. Replies are shown in the visitor’s open chat tab."
+msgstr "刷新查看新消息。回复将显示在访客打开的聊天标签页。"
+
+msgid "Removed from comparison"
+msgstr "已移出对比"
+
+msgid "Replied"
+msgstr "已回复"
+
+msgid "Request a quote"
+msgstr "获取报价"
+
+msgid "Requires"
+msgstr "需搭配"
+
+msgid "Reviewed product data"
+msgstr "产品资料已审核"
+
+msgid "Rim brake"
+msgstr "圈刹"
+
+msgid "SAME BIKE. NEW ENERGY."
+msgstr "熟悉的车，全新的动力。"
+
+msgid "Save and review plan"
+msgstr "保存并查看方案"
+
+msgid "Saving…"
+msgstr "正在保存…"
+
+msgid "Scenes for inspiration. Explore each product for its actual configuration."
+msgstr "场景摄影仅供灵感参考，实际配置请查看具体产品。"
+
+msgid "Scroll sideways to compare all products."
+msgstr "左右滑动查看所有商品。"
+
+msgid "Search results for: %s"
+msgstr "搜索结果：%s"
+
+msgid "Search this product list"
+msgstr "搜索此商品列表"
+
+msgid "Seats"
+msgstr "座位数"
+
+msgid "See the selection tools manual for the schema. Leave empty to require manual confirmation."
+msgstr "格式请参阅选购工具文档。留空时需要人工确认。"
+
+msgid "Select a product"
+msgstr "请选择商品"
+
+msgid "Select country"
+msgstr "选择国家"
+
+msgid "Select two or three different products from the same category."
+msgstr "请选择同一品类的两至三款不同商品。"
+
+msgid "Selection data was not saved. Check numbers, source/version and JSON rules; previous data is preserved."
+msgstr "选购资料未保存。请检查数值、资料来源/版本及 JSON 规则；原有资料已保留。"
+
+msgid "Selection studio"
+msgstr "选购工作台"
+
+msgid "Send inquiry"
+msgstr "提交询价"
+
+msgid "Send message"
+msgstr "发送消息"
+
+msgid "Send reply"
+msgstr "发送回复"
+
+msgid "Sending…"
+msgstr "发送中…"
+
+msgid "Sent"
+msgstr "已发送"
+
+msgid "Shadowalker team"
+msgstr "Shadowalker 团队"
+
+msgid "Shipping & returns"
+msgstr "配送与退换货"
+
+msgid "Show differences only"
+msgstr "只看差异"
+
+msgid "Skip to content"
+msgstr "跳转到正文"
+
+msgid "Specifications"
+msgstr "规格参数"
+
+msgid "Start a new conversation"
+msgstr "开启新会话"
+
+msgid "Starts with a little spark."
+msgstr "从一点电力开始。"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "System voltage"
+msgstr "系统电压"
+
+msgid "THE COLLECTION"
+msgstr "产品系列"
+
+msgid "THE INDEPENDENT SPIRIT"
+msgstr "独行者精神"
+
+msgid "Talk to us"
+msgstr "联系我们"
+
+msgid "Team inbox · replies are not instant"
+msgstr "人工消息通道 · 非即时在线客服"
+
+msgid "Technical specifications"
+msgstr "技术规格"
+
+msgid "Tell us about your project"
+msgstr "介绍你的采购或改装需求"
+
+msgid "Tell us what you have in mind. We’ll help you explore the options."
+msgstr "告诉我们你的想法，一起探索适合你的选择。"
+
+msgid "Terms"
+msgstr "服务条款"
+
+msgid "Test conditions"
+msgstr "测试条件"
+
+msgid "Tested range"
+msgstr "实测续航"
+
+msgid "Thank you. Your inquiry has been saved. Our team will review it."
+msgstr "感谢咨询，询价已保存，我们的团队将查看你的需求。"
+
+msgid "The inquiry form is currently unavailable."
+msgstr "询价表单暂时不可用。"
+
+msgid "These options cannot be combined. Check the configuration rules below."
+msgstr "所选配置存在冲突，请检查下方搭配规则。"
+
+msgid "This conversation has expired. Start a new conversation to continue."
+msgstr "此会话已过期，请开启新会话。"
+
+msgid "This conversation is full. Start a new conversation to continue."
+msgstr "此会话已达到消息上限，请开启新会话。"
+
+msgid "This is an initial screening, not installation approval. Frame, fork, connectors and installation still need checking."
+msgstr "本结果仅作初步筛选，不代表已获安装确认。车架、前叉、接头和安装方式仍需进一步核实。"
+
+msgid "This link shares your product selection for 30 days. It does not share your conversation."
+msgstr "此链接可分享选购方案，有效期为 30 天，不包含聊天内容。"
+
+msgid "This plan is unavailable or has expired. Please create a new plan."
+msgstr "此方案不存在或已过期，请创建新方案。"
+
+msgid "This product requires a quote. Please contact us."
+msgstr "此产品需要单独报价，请联系我们。"
+
+msgid "To be confirmed"
+msgstr "待确认"
+
+msgid "Too many requests. Please wait a minute and try again."
+msgstr "请求过于频繁，请稍等一分钟再试。"
+
+msgid "Unable to connect. Your draft is kept; please try again."
+msgstr "连接失败，草稿已保留，请重试。"
+
+msgid "Unable to save. Check your entries and try again."
+msgstr "保存失败，请检查填写内容后重试。"
+
+msgid "Unverified or demonstration data. Our team must confirm the details."
+msgstr "资料尚未审核或仅为演示，请由我们确认详情。"
+
+msgid "View details"
+msgstr "查看详情"
+
+msgid "Visitor"
+msgstr "访客"
+
+msgid "Warranty and support"
+msgstr "质保与支持"
+
+msgid "We could not save your inquiry. Please try again."
+msgstr "询价保存失败，请重试。"
+
+msgid "Weight"
+msgstr "重量"
+
+msgid "Welcome"
+msgstr "欢迎"
+
+msgid "What would you like to explore? Send a message to start the conversation."
+msgstr "有什么想了解的？发送消息，开始聊聊。"
+
+msgid "Wheel size"
+msgstr "轮径"
+
+msgid "Where will you go?"
+msgstr "下一站，你想去哪？"
+
+msgid "Write your message…"
+msgstr "输入消息…"
+
+msgid "You"
+msgstr "你"
+
+msgid "Your bike. A new possibility."
+msgstr "熟悉的单车，全新的可能。"
+
+msgid "Your draft has been restored in this tab."
+msgstr "已恢复此标签页中的草稿。"
+
+msgid "Your draft stays in this tab for up to 24 hours."
+msgstr "草稿会在当前标签页保留最多 24 小时。"
+
+msgid "Your message"
+msgstr "你的消息"
+
+msgid "Your name"
+msgstr "你的姓名"
+
+msgid "Your next move starts here."
+msgstr "下一段旅程，从对话开始。"
+
+msgid "Your reply"
+msgstr "你的回复"
+
+msgid "Your selection has changed. Save again before discussing this plan."
+msgstr "选择已修改，请重新保存后再带方案咨询。"
+
+msgid "Your selection is shared with our team"
+msgstr "此选购方案将同步给客服"
+
+msgid "Your session expired. Reload the form and try again."
+msgstr "页面会话已过期，请刷新表单后重试。"
+
+msgid "Your session expired. Reload this page; your draft is still here."
+msgstr "页面会话已过期，请复制草稿后刷新页面。"

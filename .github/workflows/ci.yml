@@ -1,0 +1,65 @@
+name: Storefront validation
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  wordpress:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+      - name: PHP syntax and translation catalogs
+        run: |
+          find wp-content tests -name '*.php' -print0 | xargs -0 -n1 php -l
+          python3 tests/check-translations.py
+      - name: Prepare isolated configuration
+        run: |
+          cp .env.example .env
+          sed -i "s/replace-with-a-long-unique-password/$(openssl rand -hex 24)/;s/replace-with-a-different-long-password/$(openssl rand -hex 24)/;s/replace-with-another-long-password/$(openssl rand -hex 24)/" .env
+          docker compose config --quiet
+          docker compose -f compose.yaml -f compose.production.yaml config --quiet
+      - name: Start and install WordPress
+        run: |
+          docker compose up -d --wait
+          docker compose --profile tools run --rm -T cli sh /workspace/scripts/setup.sh
+          docker compose --profile tools run --rm -T cli wp shadowalker seed
+          docker compose --profile tools run --rm -T cli wp shadowalker seed
+          docker compose --profile tools run --rm -T cli wp option update woocommerce_coming_soon no
+      - name: Business rules and HTTP flows
+        run: |
+          docker compose --profile tools run --rm -T cli wp eval-file /workspace/tests/integration.php
+          docker compose --profile tools run --rm -T cli wp eval-file /workspace/tests/manifesto.php
+          docker compose --profile tools run --rm -T cli wp eval-file /workspace/tests/chat.php
+          docker compose --profile tools run --rm -T cli wp eval-file /workspace/tests/selection.php
+          python3 tests/chat-http.py http://localhost:8080
+          python3 tests/selection-http.py http://localhost:8080
+          python3 tests/http-smoke.py http://localhost:8080
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Browser selection UX
+        run: |
+          npm install --no-save --package-lock=false playwright@1.62.1
+          npx playwright install --with-deps chromium
+          node tests/selection-ux-browser.cjs http://localhost:8080
+      - name: Record versions and container logs
+        if: always()
+        run: |
+          mkdir -p artifacts
+          docker compose logs --no-color > artifacts/containers.log
+          docker compose --profile tools run --rm -T cli wp plugin list --format=json > artifacts/plugins.json || true
+          docker compose --profile tools run --rm -T cli wp core version > artifacts/wordpress-version.txt || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-logs
+          path: artifacts/
+          retention-days: 7
+      - name: Stop isolated services
+        if: always()
+        run: docker compose down

@@ -1,0 +1,71 @@
+services:
+  db:
+    image: ${MARIADB_IMAGE:-mariadb:11.4}
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: ${DB_NAME:?Set DB_NAME}
+      MARIADB_USER: ${DB_USER:?Set DB_USER}
+      MARIADB_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Set DB_ROOT_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  wordpress:
+    image: ${WORDPRESS_IMAGE:-wordpress:php8.3-apache}
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:${WP_PORT:-8080}:80"
+    environment: &wp_environment
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: ${DB_NAME}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      SW_CHAT_BOT_URL: ${SW_CHAT_BOT_URL:-}
+      SW_CHAT_BOT_KEY: ${SW_CHAT_BOT_KEY:-}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('DISALLOW_FILE_EDIT', true);
+        define('WP_ENVIRONMENT_TYPE', 'local');
+        define('SW_CHAT_BOT_URL', getenv('SW_CHAT_BOT_URL') ?: '');
+        define('SW_CHAT_BOT_KEY', getenv('SW_CHAT_BOT_KEY') ?: '');
+    volumes: &wp_volumes
+      - wp_data:/var/www/html
+      - ./wp-content/themes/shadowalker:/var/www/html/wp-content/themes/shadowalker:ro
+      - ./wp-content/plugins/shadowalker-core:/var/www/html/wp-content/plugins/shadowalker-core:ro
+      - ./deploy/php.ini:/usr/local/etc/php/conf.d/shadowalker.ini:ro
+    healthcheck:
+      test: [CMD-SHELL, "php -r 'exit(@fsockopen(\"127.0.0.1\",80) ? 0 : 1);'"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  cli:
+    image: ${WPCLI_IMAGE:-wordpress:cli-php8.3}
+    profiles: [tools]
+    user: "33:33"
+    depends_on:
+      wordpress:
+        condition: service_healthy
+    environment:
+      <<: *wp_environment
+      WP_URL: ${WP_URL}
+      WP_TITLE: ${WP_TITLE}
+      WP_ADMIN_USER: ${WP_ADMIN_USER}
+      WP_ADMIN_PASSWORD: ${WP_ADMIN_PASSWORD}
+      WP_ADMIN_EMAIL: ${WP_ADMIN_EMAIL}
+    volumes:
+      - wp_data:/var/www/html
+      - ./wp-content/themes/shadowalker:/var/www/html/wp-content/themes/shadowalker:ro
+      - ./wp-content/plugins/shadowalker-core:/var/www/html/wp-content/plugins/shadowalker-core:ro
+      - ./scripts:/workspace/scripts:ro
+      - ./tests:/workspace/tests:ro
+    entrypoint: []
+    command: [wp, --info]
+volumes:
+  db_data:
+  wp_data:

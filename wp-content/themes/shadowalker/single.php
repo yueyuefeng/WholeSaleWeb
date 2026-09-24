@@ -1,0 +1,2 @@
+<?php defined('ABSPATH') || exit; get_header(); ?>
+<main id="main" class="wrap content-page prose"><?php while (have_posts()) { the_post(); ?><article><p class="eyebrow"><?php echo esc_html(get_the_date()); ?></p><h1><?php the_title(); ?></h1><?php the_post_thumbnail('large'); ?><div class="entry-content"><?php the_content(); wp_link_pages(); ?></div></article><?php the_post_navigation(); } ?></main><?php get_footer(); ?>

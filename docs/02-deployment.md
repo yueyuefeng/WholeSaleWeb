@@ -66,7 +66,7 @@ Caddy 自动申请并续签证书，首次要求 DNS 已生效、80/443 可访�
 1. 在主机面板新建 WordPress、数据库及 HTTPS，保留独立预发布环境。
 2. 上传 `wp-content/themes/shadowalker` 和 `wp-content/plugins/shadowalker-core` 到对应目录，或使用交付 ZIP 在后台安装。
 3. 安装 WooCommerce、WooCommerce Stripe Gateway、WooCommerce PayPal Payments、Yoast SEO；激活 Shadowalker Core 和主题。
-4. 通过 SSH 到 WordPress 根目录执行 `wp shadowalker seed`（可选）。没有 WP-CLI 可手动建立页面和分类：Home、Shop、Cart、Checkout、My account、Contact；Contact 填入短代码 `[shadowalker_inquiry]`。
+4. 通过 SSH 到 WordPress 根目录执行 `wp shadowalker seed`（可选）。没有 WP-CLI 可手动建立页面和分类：Home、Shop、Cart、Checkout、My account、Contact，以及 Compare、Build、Compatibility。Contact 选择 **Shadowalker Chat** 页面模板（路径为 `contact` 时也会自动匹配该模板），会显示聊天及折叠询价表单；若使用普通页面模板，正文填入 `[shadowalker_chat]`，可另加 `[shadowalker_inquiry]`。选购工具页面分别填入 `[shadowalker_compare]`、`[shadowalker_build]`、`[shadowalker_fit]`。
 5. 阅读设置指定静态 Home 为首页。WooCommerce 设置指定商城、购物车、结账和账户页面；设置固定链接为文章名。
 6. 联系、品牌、政策页面路径见 seed.php；使用自定义菜单可覆盖默认导航。无 seed 时需创建这些页面，否则相应默认链接会是 404。
 

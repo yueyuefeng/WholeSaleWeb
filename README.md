@@ -32,6 +32,8 @@ docker compose --profile tools run --rm cli wp shadowalker seed --allow-root
 
 ## 文档
 
+**当前系统全貌：[网站前后端架构详解（1.3.1）](docs/13-system-architecture.md)**，包含模块关系、数据存储、接口、聊天与方案流程、生产部署，以及已实现 / 待接入能力。
+
 1. [开发过程与架构](docs/01-development.md)
 2. [本地运行与生产部署](docs/02-deployment.md)
 3. [多语言与多币种](docs/03-localization.md)
@@ -44,5 +46,6 @@ docker compose --profile tools run --rm cli wp shadowalker seed --allow-root
 10. [聊天页面、人工客服与机器人接入](docs/10-chat-and-bot.md)
 11. [选购工具、商品参数与升级部署](docs/11-selection-tools.md)
 12. [同行研究和后续路线图](docs/12-competitor-roadmap.md)
+13. [网站前后端架构详解](docs/13-system-architecture.md)
 
 源代码：`wp-content/themes/shadowalker`、`wp-content/plugins/shadowalker-core`。WordPress 核心、第三方插件和付费许可证不纳入版本库。授权见 LICENSE。

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Shadowalker Core
  * Description: Mobility product specifications, quote-only sales, protected inquiries and explicit demo setup.
- * Version: 1.3.0
+ * Version: 1.3.1
  * Requires at least: 6.6
  * Requires PHP: 8.2
  * Text Domain: shadowalker

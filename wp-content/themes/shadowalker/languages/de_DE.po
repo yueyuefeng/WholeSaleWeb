@@ -121,6 +121,9 @@ msgstr "Wählen Sie bis zu drei Produkte derselben Kategorie."
 msgid "Choose your own pace"
 msgstr "Dein eigenes Tempo"
 
+msgid "Clear draft"
+msgstr "Entwurf löschen"
+
 msgid "Clear selection"
 msgstr "Auswahl löschen"
 
@@ -165,6 +168,12 @@ msgstr "Gesprächseinstieg"
 
 msgid "Conversion kits"
 msgstr "Umrüstsätze"
+
+msgid "Copy plan link"
+msgstr "Link zur Auswahl kopieren"
+
+msgid "Copy this link to share your plan."
+msgstr "Kopieren Sie diesen Link, um Ihre Auswahl zu teilen."
 
 msgid "Create a new plan"
 msgstr "Neue Planung erstellen"
@@ -361,6 +370,9 @@ msgstr "Sprechen wir darüber"
 msgid "Let’s talk."
 msgstr "Lass uns reden."
 
+msgid "Link copied"
+msgstr "Link kopiert"
+
 msgid "MEET YOUR NEXT ADVENTURE"
 msgstr "DEIN NÄCHSTES ABENTEUER"
 
@@ -408,6 +420,12 @@ msgstr "Fachliche Prüfung erforderlich"
 
 msgid "Needs reply"
 msgstr "Antwort ausstehend"
+
+msgid "No differences in the displayed specifications."
+msgstr "Keine Unterschiede in den angezeigten Spezifikationen."
+
+msgid "No matching products in this list."
+msgstr "Keine passenden Produkte in dieser Liste."
 
 msgid "Not a match"
 msgstr "Nicht passend"
@@ -541,6 +559,9 @@ msgstr "Seitlich scrollen, um alle Produkte zu vergleichen."
 msgid "Search results for: %s"
 msgstr "Suchergebnisse für: %s"
 
+msgid "Search this product list"
+msgstr "Diese Produktliste durchsuchen"
+
 msgid "Seats"
 msgstr "Sitzplätze"
 
@@ -552,6 +573,9 @@ msgstr "Produkt wählen"
 
 msgid "Select country"
 msgstr "Land auswählen"
+
+msgid "Select two or three different products from the same category."
+msgstr "Wählen Sie zwei oder drei verschiedene Produkte derselben Kategorie."
 
 msgid "Selection data was not saved. Check numbers, source/version and JSON rules; previous data is preserved."
 msgstr "Auswahldaten nicht gespeichert. Prüfen Sie Zahlen, Quelle/Version und JSON-Regeln. Bisherige Daten bleiben erhalten."
@@ -579,6 +603,9 @@ msgstr "Shadowalker-Team"
 
 msgid "Shipping & returns"
 msgstr "Versand & Rückgabe"
+
+msgid "Show differences only"
+msgstr "Nur Unterschiede anzeigen"
 
 msgid "Skip to content"
 msgstr "Zum Inhalt"
@@ -706,6 +733,12 @@ msgstr "Du"
 msgid "Your bike. A new possibility."
 msgstr "Dein Rad. Neue Möglichkeiten."
 
+msgid "Your draft has been restored in this tab."
+msgstr "Ihr Entwurf wurde in diesem Tab wiederhergestellt."
+
+msgid "Your draft stays in this tab for up to 24 hours."
+msgstr "Ihr Entwurf bleibt bis zu 24 Stunden in diesem Tab gespeichert."
+
 msgid "Your message"
 msgstr "Deine Nachricht"
 
@@ -717,6 +750,9 @@ msgstr "Dein nächster Schritt beginnt hier."
 
 msgid "Your reply"
 msgstr "Deine Antwort"
+
+msgid "Your selection has changed. Save again before discussing this plan."
+msgstr "Ihre Auswahl wurde geändert. Speichern Sie sie erneut, bevor Sie sie besprechen."
 
 msgid "Your selection is shared with our team"
 msgstr "Ihre Auswahl wird mit unserem Team geteilt"

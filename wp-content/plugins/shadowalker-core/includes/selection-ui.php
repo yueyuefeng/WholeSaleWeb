@@ -1,6 +1,6 @@
 <?php
 defined('ABSPATH') || exit;
-add_filter('the_title',function ($title,$id) {
+add_filter('the_title',function ($title,$id=0) {
     if (is_admin() || get_post_type($id)!=='page') { return $title; }
     $titles=['compare'=>['Compare products',__('Compare products', 'shadowalker')],'build'=>['Configure your ride',__('Configure your ride', 'shadowalker')],'compatibility'=>['Check compatibility',__('Check compatibility', 'shadowalker')]];
     $entry=$titles[get_post_field('post_name',$id)]??null;
@@ -8,8 +8,8 @@ add_filter('the_title',function ($title,$id) {
 },10,2);
 add_action('wp_enqueue_scripts', function () {
     $base=plugins_url('assets/',dirname(__DIR__).'/shadowalker-core.php');
-    wp_register_style('shadowalker-selection',$base.'selection.css',[],'1.3.0');
-    wp_register_script('shadowalker-selection',$base.'selection.js',[],'1.3.0',true);
+    wp_register_style('shadowalker-selection',$base.'selection.css',[],'1.3.1');
+    wp_register_script('shadowalker-selection',$base.'selection.js',[],'1.3.1',true);
     wp_script_add_data('shadowalker-selection','strategy','defer');
     $post=get_post();
     if ((function_exists('is_woocommerce') && is_woocommerce()) || is_page(['compare','build','compatibility']) || (is_page() && isset($_GET['plan'])) || ($post && preg_match('/\[shadowalker_(compare|build|fit)\b/',$post->post_content))) {
@@ -20,11 +20,17 @@ function sw_selection_assets(): void {
     wp_enqueue_style('shadowalker-selection'); wp_enqueue_script('shadowalker-selection');
     static $configured=false; if ($configured) { return; } $configured=true;
     wp_add_inline_script('shadowalker-selection','window.swSelection='.wp_json_encode([
-        'endpoint'=>rest_url('shadowalker/v1/selection/plan'),'nonce'=>wp_create_nonce('sw_chat'),'restNonce'=>wp_create_nonce('wp_rest'),'compare'=>sw_selection_url('compare'),
+        'endpoint'=>rest_url('shadowalker/v1/selection/plan'),'nonce'=>wp_create_nonce('sw_chat'),'restNonce'=>wp_create_nonce('wp_rest'),'compare'=>sw_selection_url('compare'),'locale'=>get_locale(),
         'strings'=>['compare'=>__('Compare products', 'shadowalker'),'clear'=>__('Clear selection', 'shadowalker'),'limit'=>__('Choose up to three products from the same category.', 'shadowalker'),
         'error'=>__('Unable to save. Check your entries and try again.', 'shadowalker'),'conflict'=>__('These options cannot be combined. Check the configuration rules below.', 'shadowalker'),
         'saving'=>__('Saving…', 'shadowalker'),'saved'=>__('Plan saved', 'shadowalker'),'chat'=>__('Discuss this plan', 'shadowalker'),'share'=>__('Open saved plan', 'shadowalker'),
-        'download'=>__('Download summary', 'shadowalker'),'removed'=>__('Removed from comparison', 'shadowalker'),'added'=>__('Added to comparison', 'shadowalker')]
+        'download'=>__('Download summary', 'shadowalker'),'removed'=>__('Removed from comparison', 'shadowalker'),'added'=>__('Added to comparison', 'shadowalker'),
+        'copy'=>__('Copy plan link', 'shadowalker'),'copied'=>__('Link copied', 'shadowalker'),'copyFallback'=>__('Copy this link to share your plan.', 'shadowalker'),
+        'draft'=>__('Your draft has been restored in this tab.', 'shadowalker'),'reset'=>__('Clear draft', 'shadowalker'),'draftNote'=>__('Your draft stays in this tab for up to 24 hours.', 'shadowalker'),
+        'changed'=>__('Your selection has changed. Save again before discussing this plan.', 'shadowalker'),
+        'compareHelp'=>__('Select two or three different products from the same category.', 'shadowalker'),
+        'search'=>__('Search this product list', 'shadowalker'),'noOptions'=>__('No matching products in this list.', 'shadowalker'),
+        'noDifference'=>__('No differences in the displayed specifications.', 'shadowalker')]
     ],JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT).';','before');
 }
 function sw_selection_badge($product): string {
@@ -67,16 +73,20 @@ add_filter('woocommerce_product_tabs',function ($tabs) {
         echo '</tbody></table>'; if ($product->get_meta('_sw_specs')) { sw_specs_tab(); }
     }]; return $tabs;
 },20);
-function sw_selection_catalog(array $kinds=[]): array {
+function sw_selection_catalog(array $kinds=[],array $selected=[]): array {
     if (!function_exists('wc_get_products')) { return []; }
-    return array_values(array_filter(wc_get_products(['status'=>'publish','limit'=>200,'orderby'=>'title','order'=>'ASC']),function ($p) use ($kinds) {
+    $catalog=wc_get_products(['status'=>'publish','visibility'=>'catalog','limit'=>200,'orderby'=>'title','order'=>'ASC']);
+    // A direct product link must still work when its product is beyond the picker limit.
+    foreach ($selected as $id) { $p=sw_selection_product($id); if ($p) { $catalog[]=$p; } }
+    $unique=[]; foreach ($catalog as $p) { $unique[$p->get_id()]=$p; }
+    return array_values(array_filter($unique,function ($p) use ($kinds) {
         return sw_selection_product($p->get_id()) && sw_selection_kind($p) && (!$kinds || in_array(sw_selection_kind($p),$kinds,true));
     }));
 }
 function sw_selection_product_select(string $name,array $catalog,int $selected=0): void {
     echo '<select name="'.esc_attr($name).'" aria-label="'.esc_attr__('Product', 'shadowalker').'">';
     echo '<option value="">'.esc_html__('Choose a product', 'shadowalker').'</option>';
-    foreach ($catalog as $p) { echo '<option value="'.esc_attr($p->get_id()).'" '.selected($selected,$p->get_id(),false).'>'.esc_html($p->get_name()).'</option>'; }
+    foreach ($catalog as $p) { echo '<option value="'.esc_attr($p->get_id()).'" data-kind="'.esc_attr(sw_selection_kind($p)).'" '.selected($selected,$p->get_id(),false).'>'.esc_html($p->get_name()).'</option>'; }
     echo '</select>';
 }
 add_shortcode('shadowalker_compare',function () {
@@ -89,11 +99,12 @@ add_shortcode('shadowalker_compare',function () {
     foreach (array_slice($ids,0,3) as $id) { $p=sw_selection_product($id); if (!$p || !sw_selection_kind($p) || ($kind && $kind!==sw_selection_kind($p))) { $invalid=true; break; } $kind=sw_selection_kind($p); $products[]=$p; }
     if ($invalid) { $products=[]; }
     ob_start(); echo '<section class="sw-selection" aria-label="'.esc_attr__('Compare products', 'shadowalker').'"><p>'.esc_html__('Choose up to three products from the same category.', 'shadowalker').'</p>';
-    $catalog=sw_selection_catalog(); echo '<form method="get" class="sw-compare-picker">';
+    $catalog=sw_selection_catalog([],array_map(fn($p)=>$p->get_id(),$products)); echo '<form method="get" class="sw-compare-picker">';
     for ($i=0;$i<3;$i++) { sw_selection_product_select('ids[]',$catalog,isset($products[$i])?$products[$i]->get_id():0); }
     echo '<button type="submit" class="button">'.esc_html__('Compare products', 'shadowalker').'</button></form>';
     if ($invalid) { echo '<p role="alert">'.esc_html__('Choose up to three products from the same category.', 'shadowalker').'</p>'; }
     if (count($products)>=2) {
+        echo '<label class="sw-difference-toggle"><input type="checkbox" data-differences-only> '.esc_html__('Show differences only', 'shadowalker').'</label><p class="sw-difference-status" role="status"></p>';
         echo '<p class="sw-scroll-hint">'.esc_html__('Scroll sideways to compare all products.', 'shadowalker').'</p><div class="sw-compare-scroll" tabindex="0" role="region" aria-label="'.esc_attr__('Compare products', 'shadowalker').'"><table class="sw-compare-table"><thead><tr><th scope="col">'.esc_html__('Specifications', 'shadowalker').'</th>';
         foreach ($products as $p) { echo '<th scope="col"><a href="'.esc_url($p->get_permalink()).'">'.esc_html($p->get_name()).'</a><small>'.esc_html(sw_selection_badge($p)).'</small></th>'; } echo '</tr></thead><tbody>';
         foreach (sw_selection_fields() as $key=>[$label,$unit,$min,$max,$kinds]) {
@@ -102,9 +113,10 @@ add_shortcode('shadowalker_compare',function () {
             echo '<tr'.(count(array_unique($values))>1?' class="sw-difference"':'').'><th scope="row">'.esc_html($label).'</th>'; foreach ($values as $value) { echo '<td>'.esc_html($value).'</td>'; } echo '</tr>';
         }
         foreach (['conditions'=>__('Test conditions', 'shadowalker'),'limits'=>__('Check before choosing', 'shadowalker'),'warranty'=>__('Warranty and support', 'shadowalker')] as $key=>$label) {
-            echo '<tr><th scope="row">'.esc_html($label).'</th>'; foreach ($products as $p) { $profile=sw_selection_profile($p); echo '<td>'.esc_html($profile['content'][$key]??'' ?: __('To be confirmed', 'shadowalker')).'</td>'; } echo '</tr>';
+            $values=array_map(fn($p)=>sw_selection_profile($p)['content'][$key]??'' ?: __('To be confirmed', 'shadowalker'),$products);
+            echo '<tr'.(count(array_unique($values))>1?' class="sw-difference"':'').'><th scope="row">'.esc_html($label).'</th>'; foreach ($values as $value) { echo '<td>'.esc_html($value).'</td>'; } echo '</tr>';
         }
-        echo '<tr><th scope="row">'.esc_html__('Data source / version', 'shadowalker').'</th>'; foreach ($products as $p) { $profile=sw_selection_profile($p); echo '<td>'.esc_html(($profile['source']?:'—').' / '.($profile['version']?:'—')).'</td>'; } echo '</tr></tbody></table></div>';
+        echo '<tr data-always-show><th scope="row">'.esc_html__('Data source / version', 'shadowalker').'</th>'; foreach ($products as $p) { $profile=sw_selection_profile($p); echo '<td>'.esc_html(($profile['source']?:'—').' / '.($profile['version']?:'—')).'</td>'; } echo '</tr></tbody><tfoot><tr><th scope="row">'.esc_html__('Chat with Shadowalker', 'shadowalker').'</th>'; foreach ($products as $p) { echo '<td><a href="'.esc_url(sw_selection_url('contact',['product_id'=>$p->get_id()])).'">'.esc_html__('Talk to us', 'shadowalker').' ↗</a></td>'; } echo '</tr></tfoot></table></div>';
     }
     echo '</section>'; return ob_get_clean();
 });
@@ -113,12 +125,12 @@ function sw_selection_saved_view(string $mode): ?string {
     $snapshot=sw_selection_read_plan(wp_unslash($_GET['plan']));
     if (is_wp_error($snapshot)) { return '<p role="alert">'.esc_html__('This plan is unavailable or has expired. Please create a new plan.', 'shadowalker').'</p>'; }
     $summary=sw_selection_summary($snapshot); $code=$_GET['plan']; ob_start();
-    echo '<section class="sw-selection sw-plan-result"><h2>'.esc_html__('Plan saved', 'shadowalker').'</h2><p>'.esc_html__('This link shares your product selection for 30 days. It does not share your conversation.', 'shadowalker').'</p><pre>'.esc_html(implode("\n",$summary)).'</pre><a class="button" href="'.esc_url(sw_selection_url('contact',['plan'=>$code])).'">'.esc_html__('Discuss this plan', 'shadowalker').' ↗</a> <button type="button" data-download-summary>'.esc_html__('Download summary', 'shadowalker').'</button> <a href="'.esc_url(sw_selection_url($mode==='build'?'build':'compatibility',['product_id'=>$snapshot['product_id']])).'">'.esc_html__('Create a new plan', 'shadowalker').'</a></section>';
+    echo '<section class="sw-selection sw-plan-result"><h2>'.esc_html__('Plan saved', 'shadowalker').'</h2><p>'.esc_html__('This link shares your product selection for 30 days. It does not share your conversation.', 'shadowalker').'</p><pre>'.esc_html(implode("\n",$summary)).'</pre><a class="button" href="'.esc_url(sw_selection_url('contact',['plan'=>$code])).'">'.esc_html__('Discuss this plan', 'shadowalker').' ↗</a> <button type="button" data-download-summary>'.esc_html__('Download summary', 'shadowalker').'</button> <button type="button" data-copy-plan="'.esc_url(sw_selection_url($snapshot['mode']==='build'?'build':'compatibility',['plan'=>$code])).'">'.esc_html__('Copy plan link', 'shadowalker').'</button><p class="sw-copy-status" role="status"></p> <a href="'.esc_url(sw_selection_url($mode==='build'?'build':'compatibility',['product_id'=>$snapshot['product_id']])).'">'.esc_html__('Create a new plan', 'shadowalker').'</a></section>';
     return ob_get_clean();
 }
 function sw_selection_form(string $mode): string {
     sw_selection_assets(); $saved=sw_selection_saved_view($mode); if ($saved!==null) { return $saved; }
-    $catalog=sw_selection_catalog($mode==='build'?['cart','boat']:['kit']); $id=$_GET['product_id']??''; $product=sw_selection_product($id);
+    $id=$_GET['product_id']??''; $catalog=sw_selection_catalog($mode==='build'?['cart','boat']:['kit'],[$id]); $product=sw_selection_product($id);
     if ($product && !in_array($product->get_id(),array_map(fn($p)=>$p->get_id(),$catalog),true)) { $product=false; }
     ob_start(); echo '<section class="sw-selection" aria-label="'.esc_attr($mode==='build'?__('Configure your ride', 'shadowalker'):__('Check compatibility', 'shadowalker')).'"><p class="eyebrow">SHADOWALKER / '.esc_html__('Selection studio', 'shadowalker').'</p>';
     echo '<form method="get" class="sw-product-picker">'; sw_selection_product_select('product_id',$catalog,$product?$product->get_id():0); echo '<button type="submit" class="button">'.esc_html__('Choose a product', 'shadowalker').'</button></form>';
@@ -126,7 +138,7 @@ function sw_selection_form(string $mode): string {
     echo '<p class="sw-data-status">'.esc_html(sw_selection_badge($product)).'</p>';
     $groups=sw_selection_options($product);
     if ($mode==='build' && !$groups) { echo '<p>'.esc_html__('Configuration options are awaiting confirmation. Please talk to our team.', 'shadowalker').'</p><a class="button" href="'.esc_url(sw_selection_url('contact',['product_id'=>$product->get_id()])).'">'.esc_html__('Chat with Shadowalker', 'shadowalker').'</a></section>'; return ob_get_clean(); }
-    echo '<form class="sw-selection-form" data-mode="'.esc_attr($mode).'" data-product="'.esc_attr($product->get_id()).'"><div class="sw-form-grid">';
+    echo '<form class="sw-selection-form" data-mode="'.esc_attr($mode).'" data-product="'.esc_attr($product->get_id()).'" data-revision="'.esc_attr(sw_selection_revision($product)).'" data-rules="'.esc_attr(wp_json_encode($groups)).'"><div class="sw-form-grid">';
     if ($mode==='build') {
         foreach ($groups as $group) { echo '<label>'.esc_html($group['label']).'<select required name="choices['.esc_attr($group['id']).']"><option value="">'.esc_html__('Choose an option', 'shadowalker').'</option>'; foreach ($group['options'] as $option) { echo '<option value="'.esc_attr($option['id']).'">'.esc_html($option['label']).'</option>'; } echo '</select></label>'; }
     } else {

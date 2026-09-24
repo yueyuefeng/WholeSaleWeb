@@ -82,8 +82,19 @@ try {
     $kit->set_status('draft'); $kit->save();
     $assert(is_wp_error(sw_selection_read_plan($fit['plan'])),'unpublished product plan unavailable');
     $kit->set_status('publish'); $kit->save();
+    $other->set_catalog_visibility('hidden'); $other->save();
+    $assert(!in_array($other->get_id(),array_map(fn($p)=>$p->get_id(),sw_selection_catalog()),true),'hidden catalog product excluded from default picker');
+    $other->set_catalog_visibility('visible'); $other->save();
+    $limit_catalog=function ($args) { $args['limit']=1; return $args; };
+    add_filter('woocommerce_product_object_query_args',$limit_catalog);
+    try {
+        $catalog=sw_selection_catalog(['kit'],[$kit->get_id()]);
+        $assert(in_array($kit->get_id(),array_map(fn($p)=>$p->get_id(),$catalog),true),'direct selection survives catalog query limit');
+        $assert(!sw_selection_catalog(['boat'],[$kit->get_id()]),'selected product still respects category restriction');
+    } finally { remove_filter('woocommerce_product_object_query_args',$limit_catalog); }
     $_GET=['ids'=>$kit->get_id().','.$other->get_id()]; $html=do_shortcode('[shadowalker_compare]');
     $assert(str_contains($html,'sw-compare-table') && str_contains($html,'To be confirmed'),'same-category comparison renders unknowns');
+    $assert(str_contains($html,'data-differences-only') && str_contains($html,'data-always-show') && str_contains($html,'<tfoot>'),'comparison offers difference filtering, persistent source and consultation links');
     $_GET=['ids'=>$kit->get_id().','.$cart->get_id()]; $html=do_shortcode('[shadowalker_compare]');
     $assert(!str_contains($html,'<table'),'cross-category comparison blocked');
     $_GET=[]; $assert(str_contains(do_shortcode('[shadowalker_compare]'),'sw-compare-picker'),'empty comparison renders without error');

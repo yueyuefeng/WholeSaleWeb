@@ -240,5 +240,17 @@
   "Your selection is shared with our team": "此选购方案将同步给客服",
   "Scroll sideways to compare all products.": "左右滑动查看所有商品。",
   "Bicycle brand": "自行车品牌",
-  "Bicycle model": "自行车型号"
+  "Bicycle model": "自行车型号",
+  "Copy plan link": "复制方案链接",
+  "Link copied": "链接已复制",
+  "Copy this link to share your plan.": "复制此链接即可分享方案。",
+  "Your draft has been restored in this tab.": "已恢复此标签页中的草稿。",
+  "Clear draft": "清空草稿",
+  "Your draft stays in this tab for up to 24 hours.": "草稿会在当前标签页保留最多 24 小时。",
+  "Your selection has changed. Save again before discussing this plan.": "选择已修改，请重新保存后再带方案咨询。",
+  "Select two or three different products from the same category.": "请选择同一品类的两至三款不同商品。",
+  "Search this product list": "搜索此商品列表",
+  "No matching products in this list.": "此列表中没有匹配的商品。",
+  "No differences in the displayed specifications.": "当前展示的参数没有差异。",
+  "Show differences only": "只看差异"
 }

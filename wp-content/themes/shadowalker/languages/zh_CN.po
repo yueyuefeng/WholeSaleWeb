@@ -121,6 +121,9 @@ msgstr "请选择同一品类的最多三款商品。"
 msgid "Choose your own pace"
 msgstr "找到自己的节奏"
 
+msgid "Clear draft"
+msgstr "清空草稿"
+
 msgid "Clear selection"
 msgstr "清空选择"
 
@@ -165,6 +168,12 @@ msgstr "选择话题"
 
 msgid "Conversion kits"
 msgstr "电动改装套件"
+
+msgid "Copy plan link"
+msgstr "复制方案链接"
+
+msgid "Copy this link to share your plan."
+msgstr "复制此链接即可分享方案。"
 
 msgid "Create a new plan"
 msgstr "创建新方案"
@@ -361,6 +370,9 @@ msgstr "聊聊你的计划"
 msgid "Let’s talk."
 msgstr "聊聊你的想法。"
 
+msgid "Link copied"
+msgstr "链接已复制"
+
 msgid "MEET YOUR NEXT ADVENTURE"
 msgstr "开启下一段探索"
 
@@ -408,6 +420,12 @@ msgstr "需人工确认"
 
 msgid "Needs reply"
 msgstr "待回复"
+
+msgid "No differences in the displayed specifications."
+msgstr "当前展示的参数没有差异。"
+
+msgid "No matching products in this list."
+msgstr "此列表中没有匹配的商品。"
 
 msgid "Not a match"
 msgstr "规格不匹配"
@@ -541,6 +559,9 @@ msgstr "左右滑动查看所有商品。"
 msgid "Search results for: %s"
 msgstr "搜索结果：%s"
 
+msgid "Search this product list"
+msgstr "搜索此商品列表"
+
 msgid "Seats"
 msgstr "座位数"
 
@@ -552,6 +573,9 @@ msgstr "请选择商品"
 
 msgid "Select country"
 msgstr "选择国家"
+
+msgid "Select two or three different products from the same category."
+msgstr "请选择同一品类的两至三款不同商品。"
 
 msgid "Selection data was not saved. Check numbers, source/version and JSON rules; previous data is preserved."
 msgstr "选购资料未保存。请检查数值、资料来源/版本及 JSON 规则；原有资料已保留。"
@@ -579,6 +603,9 @@ msgstr "Shadowalker 团队"
 
 msgid "Shipping & returns"
 msgstr "配送与退换货"
+
+msgid "Show differences only"
+msgstr "只看差异"
 
 msgid "Skip to content"
 msgstr "跳转到正文"
@@ -706,6 +733,12 @@ msgstr "你"
 msgid "Your bike. A new possibility."
 msgstr "熟悉的单车，全新的可能。"
 
+msgid "Your draft has been restored in this tab."
+msgstr "已恢复此标签页中的草稿。"
+
+msgid "Your draft stays in this tab for up to 24 hours."
+msgstr "草稿会在当前标签页保留最多 24 小时。"
+
 msgid "Your message"
 msgstr "你的消息"
 
@@ -717,6 +750,9 @@ msgstr "下一段旅程，从对话开始。"
 
 msgid "Your reply"
 msgstr "你的回复"
+
+msgid "Your selection has changed. Save again before discussing this plan."
+msgstr "选择已修改，请重新保存后再带方案咨询。"
 
 msgid "Your selection is shared with our team"
 msgstr "此选购方案将同步给客服"

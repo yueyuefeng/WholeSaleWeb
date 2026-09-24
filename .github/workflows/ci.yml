@@ -39,6 +39,14 @@ jobs:
           python3 tests/chat-http.py http://localhost:8080
           python3 tests/selection-http.py http://localhost:8080
           python3 tests/http-smoke.py http://localhost:8080
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Browser selection UX
+        run: |
+          npm install --no-save --package-lock=false playwright@1.62.1
+          npx playwright install --with-deps chromium
+          node tests/selection-ux-browser.cjs http://localhost:8080
       - name: Record versions and container logs
         if: always()
         run: |

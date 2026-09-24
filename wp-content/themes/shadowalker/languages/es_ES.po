@@ -121,6 +121,9 @@ msgstr "Elige hasta tres productos de la misma categoría."
 msgid "Choose your own pace"
 msgstr "Elige tu propio ritmo"
 
+msgid "Clear draft"
+msgstr "Borrar borrador"
+
 msgid "Clear selection"
 msgstr "Borrar selección"
 
@@ -165,6 +168,12 @@ msgstr "Temas para empezar"
 
 msgid "Conversion kits"
 msgstr "Kits de conversión"
+
+msgid "Copy plan link"
+msgstr "Copiar enlace de la selección"
+
+msgid "Copy this link to share your plan."
+msgstr "Copia este enlace para compartir tu selección."
 
 msgid "Create a new plan"
 msgstr "Crear una nueva selección"
@@ -361,6 +370,9 @@ msgstr "Hablemos"
 msgid "Let’s talk."
 msgstr "Hablemos."
 
+msgid "Link copied"
+msgstr "Enlace copiado"
+
 msgid "MEET YOUR NEXT ADVENTURE"
 msgstr "TU PRÓXIMA AVENTURA"
 
@@ -408,6 +420,12 @@ msgstr "Requiere revisión de un especialista"
 
 msgid "Needs reply"
 msgstr "Pendiente de respuesta"
+
+msgid "No differences in the displayed specifications."
+msgstr "No hay diferencias en las especificaciones mostradas."
+
+msgid "No matching products in this list."
+msgstr "No hay productos coincidentes en esta lista."
 
 msgid "Not a match"
 msgstr "No coincide"
@@ -541,6 +559,9 @@ msgstr "Desplázate horizontalmente para comparar todos los productos."
 msgid "Search results for: %s"
 msgstr "Resultados de búsqueda para: %s"
 
+msgid "Search this product list"
+msgstr "Buscar en esta lista de productos"
+
 msgid "Seats"
 msgstr "Plazas"
 
@@ -552,6 +573,9 @@ msgstr "Seleccionar un producto"
 
 msgid "Select country"
 msgstr "Seleccionar país"
+
+msgid "Select two or three different products from the same category."
+msgstr "Selecciona dos o tres productos distintos de la misma categoría."
 
 msgid "Selection data was not saved. Check numbers, source/version and JSON rules; previous data is preserved."
 msgstr "Los datos no se guardaron. Revisa números, fuente/versión y reglas JSON. Se conservan los datos anteriores."
@@ -579,6 +603,9 @@ msgstr "Equipo Shadowalker"
 
 msgid "Shipping & returns"
 msgstr "Envíos y devoluciones"
+
+msgid "Show differences only"
+msgstr "Mostrar solo diferencias"
 
 msgid "Skip to content"
 msgstr "Ir al contenido"
@@ -706,6 +733,12 @@ msgstr "Tú"
 msgid "Your bike. A new possibility."
 msgstr "Tu bici. Nuevas posibilidades."
 
+msgid "Your draft has been restored in this tab."
+msgstr "Se ha restaurado tu borrador en esta pestaña."
+
+msgid "Your draft stays in this tab for up to 24 hours."
+msgstr "Tu borrador se guarda en esta pestaña durante un máximo de 24 horas."
+
 msgid "Your message"
 msgstr "Tu mensaje"
 
@@ -717,6 +750,9 @@ msgstr "Tu próximo paso empieza aquí."
 
 msgid "Your reply"
 msgstr "Tu respuesta"
+
+msgid "Your selection has changed. Save again before discussing this plan."
+msgstr "Tu selección ha cambiado. Guárdala de nuevo antes de consultarla."
 
 msgid "Your selection is shared with our team"
 msgstr "Tu selección se comparte con nuestro equipo"

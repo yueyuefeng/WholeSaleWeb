@@ -240,5 +240,17 @@
   "Your selection is shared with our team": "Votre sélection est transmise à notre équipe",
   "Scroll sideways to compare all products.": "Faites défiler horizontalement pour comparer tous les produits.",
   "Bicycle brand": "Marque du vélo",
-  "Bicycle model": "Modèle du vélo"
+  "Bicycle model": "Modèle du vélo",
+  "Copy plan link": "Copier le lien de la sélection",
+  "Link copied": "Lien copié",
+  "Copy this link to share your plan.": "Copiez ce lien pour partager votre sélection.",
+  "Your draft has been restored in this tab.": "Votre brouillon a été restauré dans cet onglet.",
+  "Clear draft": "Effacer le brouillon",
+  "Your draft stays in this tab for up to 24 hours.": "Votre brouillon reste dans cet onglet pendant 24 heures au maximum.",
+  "Your selection has changed. Save again before discussing this plan.": "Votre sélection a changé. Enregistrez-la à nouveau avant d’en discuter.",
+  "Select two or three different products from the same category.": "Sélectionnez deux ou trois produits différents de la même catégorie.",
+  "Search this product list": "Rechercher dans cette liste de produits",
+  "No matching products in this list.": "Aucun produit correspondant dans cette liste.",
+  "No differences in the displayed specifications.": "Aucune différence dans les caractéristiques affichées.",
+  "Show differences only": "Afficher uniquement les différences"
 }

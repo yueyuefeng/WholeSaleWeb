@@ -121,6 +121,9 @@ msgstr "Choisissez jusqu’à trois produits de la même catégorie."
 msgid "Choose your own pace"
 msgstr "Choisissez votre rythme"
 
+msgid "Clear draft"
+msgstr "Effacer le brouillon"
+
 msgid "Clear selection"
 msgstr "Effacer la sélection"
 
@@ -165,6 +168,12 @@ msgstr "Pour commencer"
 
 msgid "Conversion kits"
 msgstr "Kits de conversion"
+
+msgid "Copy plan link"
+msgstr "Copier le lien de la sélection"
+
+msgid "Copy this link to share your plan."
+msgstr "Copiez ce lien pour partager votre sélection."
 
 msgid "Create a new plan"
 msgstr "Créer une nouvelle sélection"
@@ -361,6 +370,9 @@ msgstr "Parlons-en"
 msgid "Let’s talk."
 msgstr "Parlons-en."
 
+msgid "Link copied"
+msgstr "Lien copié"
+
 msgid "MEET YOUR NEXT ADVENTURE"
 msgstr "VOTRE PROCHAINE AVENTURE"
 
@@ -408,6 +420,12 @@ msgstr "Vérification spécialisée nécessaire"
 
 msgid "Needs reply"
 msgstr "Réponse attendue"
+
+msgid "No differences in the displayed specifications."
+msgstr "Aucune différence dans les caractéristiques affichées."
+
+msgid "No matching products in this list."
+msgstr "Aucun produit correspondant dans cette liste."
 
 msgid "Not a match"
 msgstr "Non compatible selon les critères vérifiés"
@@ -541,6 +559,9 @@ msgstr "Faites défiler horizontalement pour comparer tous les produits."
 msgid "Search results for: %s"
 msgstr "Résultats de recherche pour : %s"
 
+msgid "Search this product list"
+msgstr "Rechercher dans cette liste de produits"
+
 msgid "Seats"
 msgstr "Nombre de places"
 
@@ -552,6 +573,9 @@ msgstr "Sélectionner un produit"
 
 msgid "Select country"
 msgstr "Choisir un pays"
+
+msgid "Select two or three different products from the same category."
+msgstr "Sélectionnez deux ou trois produits différents de la même catégorie."
 
 msgid "Selection data was not saved. Check numbers, source/version and JSON rules; previous data is preserved."
 msgstr "Données non enregistrées. Vérifiez les nombres, la source/version et les règles JSON. Les données précédentes sont conservées."
@@ -579,6 +603,9 @@ msgstr "Équipe Shadowalker"
 
 msgid "Shipping & returns"
 msgstr "Livraison & retours"
+
+msgid "Show differences only"
+msgstr "Afficher uniquement les différences"
 
 msgid "Skip to content"
 msgstr "Aller au contenu"
@@ -706,6 +733,12 @@ msgstr "Vous"
 msgid "Your bike. A new possibility."
 msgstr "Votre vélo. Un nouvel élan."
 
+msgid "Your draft has been restored in this tab."
+msgstr "Votre brouillon a été restauré dans cet onglet."
+
+msgid "Your draft stays in this tab for up to 24 hours."
+msgstr "Votre brouillon reste dans cet onglet pendant 24 heures au maximum."
+
 msgid "Your message"
 msgstr "Votre message"
 
@@ -717,6 +750,9 @@ msgstr "Votre prochaine aventure commence ici."
 
 msgid "Your reply"
 msgstr "Votre réponse"
+
+msgid "Your selection has changed. Save again before discussing this plan."
+msgstr "Votre sélection a changé. Enregistrez-la à nouveau avant d’en discuter."
 
 msgid "Your selection is shared with our team"
 msgstr "Votre sélection est transmise à notre équipe"
